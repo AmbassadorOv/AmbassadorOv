@@ -1,60 +1,99 @@
 # Eran Oved Awats — Philosopher & Researcher of Architectures
 
-I am a philosopher and researcher of architectures at the boundary of **philosophy, technology, anthropology, and artificial intelligence**.
+**Philosopher · Researcher of Architectures · AI Forensics & Systems Research**
 
-My work examines how systems are structured, how intelligence is organized, how technological architectures interact with human and institutional systems, and how new forms of artificial intelligence change the conditions under which knowledge, reasoning, evidence, and decision-making operate.
+I research architectures at the boundary of **philosophy, technology, anthropology, and artificial intelligence**.
 
-I do not approach architecture only as an engineering discipline. I study architecture as a **conceptual, technical, human, and systemic structure**.
+My work asks how architectures shape intelligence, knowledge, reasoning, evidence, institutions, and human–machine relations — and how these structures can be examined when complex AI systems change over time.
 
-## Research domains
+This profile is designed to make the research legible to readers who are not specialists while preserving a clear distinction between research, implementation, evidence, and future work.
 
-| Domain | Focus |
+## What I Research
+
+| Area | In plain language |
 |---|---|
-| **AI Drift Forensics & Reliability** | Behavioral drift, criterion changes, evidence preservation, reconstruction and verification |
-| **Philosophy of Technology & AI** | The conceptual foundations and structural consequences of artificial intelligence |
-| **Anthropology & AI Systems** | Relationships between human systems, institutions, technological systems, and machine intelligence |
-| **Architectural Research** | Researching architectures that connect philosophical questions with technological implementation |
-| **Rational Logic & NTM** | Rational Logic, Neural Thinking Machine research, and structured reasoning systems |
-| **AI²³¹ & Formal Structures** | Maimonidean logic, computational language structures, and formal relations |
+| **Architecture & Philosophy** | How conceptual structures become technical and institutional architectures |
+| **AI & Human Systems** | How artificial intelligence interacts with people, institutions, and technological systems |
+| **AI Drift Forensics** | How to detect, reconstruct, and verify meaningful changes in AI behavior |
+| **Evidence & Provenance** | How to preserve the evidence needed to understand what happened and when |
+| **Rational Logic & NTM** | Research into structured reasoning and architectures for machine thinking |
+| **AI²³¹ & Formal Structures** | Research connecting Maimonidean logic, language structures, and computation |
 
-## How I work
+## The Core Question
 
-The research moves between conceptual analysis and technical architecture:
+A complex AI system can produce an answer that looks correct while the reasoning conditions, definitions, premises, or evaluation criteria behind that answer have changed.
 
-**PHILOSOPHICAL QUESTION → ARCHITECTURAL MODEL → TECHNICAL STRUCTURE → EVIDENCE → VERIFICATION**
+My research therefore asks:
 
-The work is organized around a strict distinction between:
+**What changed? When did it change? What depended on the change? Can the change be reconstructed? Can the evidence be independently verified?**
 
-**BUILT · SPECIFIED · PROTOTYPED · TESTED · VERIFIED · PLANNED · HYPOTHETICAL**
+This is the basis of the AI Drift Forensics research program.
 
-A specification is not presented as an implementation. A prototype is not presented as verified. A projection is not presented as a result.
+## From Research Question to Evidence
+
+The general research path is:
+
+**PHILOSOPHICAL QUESTION → ARCHITECTURAL MODEL → TECHNICAL STRUCTURE → OBSERVATION → EVIDENCE → VERIFICATION**
+
+The purpose of this structure is to connect abstract questions with observable and testable artifacts.
 
 ## AI Drift Forensics
 
-A central research direction is the forensic study of changes in AI system behavior over time and across interactions.
-
-The methodological chain is:
+The forensic methodology is organized as:
 
 **Baseline → Observation → Drift Detection → Evidence Preservation → Reconstruction → Causal / Dependency Analysis → Attribution → Risk Quantification → Intervention → Verification**
 
-The objective is not simply to measure whether an answer is correct. It is to investigate **what changed, when it changed, what depended on that change, and whether the change can be reconstructed and independently verified**.
+The research distinguishes between:
 
-## Institutional and financial systems
+- **Point error** — an isolated incorrect result.
+- **Drift** — a change in behavior, definitions, premises, inference, or evaluation criteria across time or interaction.
+- **Criterion change** — a change in the basis used to judge or correct subsequent answers.
 
-This research also interfaces with **insurance companies and institutional risk holders with material exposure to banks and other critical financial infrastructure**.
+The goal is not merely to score an AI system. It is to establish an evidence chain that can explain **what changed and why the later behavior differs from the earlier state**.
 
-The focus is independent technical evidence, AI-drift analysis, model-behavior analysis, provenance reconstruction, and systemic-exposure analysis.
+## Institutional & Financial Risk
 
-This work is positioned as a research and forensic-analysis layer, not as insurance coverage, underwriting, a financial guarantee, solvency assurance, or a regulated insurance product.
+A practical application of this research is independent technical analysis for **insurance companies and institutional risk holders with material exposure to banks and other critical financial infrastructure**.
 
-## Research systems
+The research and forensic layer can address questions such as:
 
-- [WANGA-LAB](https://github.com/AmbassadorOv/WANGA-LAB)
-- [AI231.meta.io](https://github.com/AmbassadorOv/AI231.meta.io)
-- [ai-agent-terraform](https://github.com/AmbassadorOv/ai-agent-terraform)
-- [chatgpt-scientific-publications-extension](https://github.com/AmbassadorOv/chatgpt-scientific-publications-extension)
+- What AI system behavior was observed?
+- What evidence exists for the observed state?
+- Did the behavior change over time?
+- Can the change be reconstructed?
+- What systems, decisions, or dependencies may be affected?
+- Can the resulting evidence be independently verified?
 
-## Research record
+This is positioned as a **research and forensic-analysis layer**. It is not insurance coverage, underwriting, a financial guarantee, solvency assurance, or a regulated insurance product.
+
+## Evidence Status
+
+To prevent research claims from being confused with implementation, work is classified as:
+
+**BUILT · SPECIFIED · PROTOTYPED · TESTED · VERIFIED · PLANNED · HYPOTHETICAL**
+
+These labels describe evidence status, not marketing status.
+
+A specification is not an implementation.  
+A prototype is not automatically verified.  
+A projection is not a result.
+
+## Research Systems
+
+- [WANGA-LAB](https://github.com/AmbassadorOv/WANGA-LAB) — evidence infrastructure, AI drift forensics, provenance, and verification research
+- [AI231.meta.io](https://github.com/AmbassadorOv/AI231.meta.io) — AI²³¹ and formal-structure research
+- [ai-agent-terraform](https://github.com/AmbassadorOv/ai-agent-terraform) — research into agent and model infrastructure
+- [chatgpt-scientific-publications-extension](https://github.com/AmbassadorOv/chatgpt-scientific-publications-extension) — research tooling for scientific publication workflows
+
+## Research Method
+
+I do not treat architecture only as an engineering discipline.
+
+I study architecture as a **conceptual, technical, human, institutional, and systemic structure**.
+
+The work moves between philosophy, anthropology, technology, artificial intelligence, formal reasoning, and evidence analysis. The aim is to understand how these domains connect without collapsing one into another.
+
+## Research Record
 
 The broader research history is reconstructed from dated technical artifacts, repositories, correspondence, and other primary records. Where the available record does not establish a fact, it is left unasserted rather than inferred.
 
