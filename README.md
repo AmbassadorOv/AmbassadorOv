@@ -419,3 +419,30 @@ Any such participation is to be defined separately in the applicable commercial,
 ## Contact
 
 Research contact: beywolf@gmail.com
+
+
+## Institutional & Industrial Execution Layer
+
+WANGA also defines a proposed institutional-industrial architecture connecting the Digital Intelligence Engine to the Industrial Execution Engine through evidence, verification, drift analysis, policy/authorization and integration boundaries.
+
+**Digital Economic Engine:** Compute → Models → Agents → Reasoning → Evidence → Verification → Decision
+
+**Industrial Economic Engine:** Capital / Energy / Materials → Machines → Organizations → Production / Services → Economic / Physical Outcomes
+
+The proposed **Office of Industry & Commerce** is an Institute-native coordination layer for industrial AI integration, evidence, architecture mapping, drift monitoring, economic simulation and research-to-industry transfer. It does not claim government authority or an actual ministry relationship.
+
+See [WANGA Institutional & Industrial Architecture](docs/WANGA_INSTITUTIONAL_INDUSTRIAL_ARCHITECTURE.md) and [Economic Engine Deployment Map](docs/WANGA_ECONOMIC_ENGINE_DEPLOYMENT_MAP.md).
+
+## Algorithmic & Neural Governance Network
+
+The **Algorithmic & Neural Governance Office** is the dedicated Institute-native layer for algorithmic and neural computational systems.
+
+It connects:
+
+**Neural Families → Thought / Capability Families → Models → Agents → Evidence → Verification → Drift → Vitruvius → Institute Offices → Business / Industry → WANGA Main Bridge**
+
+The network includes academic research, public GitHub architecture sources, AI/ML organizations, model and agent ecosystems, infrastructure, financial and industrial interfaces, and potential commercial integration pathways.
+
+Connections are architectural/provenance mappings only. They do not establish ownership, control, partnership, academic affiliation, regulatory authority or government status.
+
+See [Neural Governance Global Office & Business Network](governance/algorithmic-neural-governance-office/GLOBAL_NEURAL_OFFICE_BUSINESS_NETWORK.md) and [Neural Network Architecture](governance/algorithmic-neural-governance-office/NEURAL_NETWORK_ARCHITECTURE.md).
