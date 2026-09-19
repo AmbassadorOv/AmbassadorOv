@@ -2,11 +2,23 @@
 
 Independent research and systems architecture focused on **global architecture computing, AI reliability, AI drift forensics, evidence infrastructure, logical reasoning, computational research, and governance interfaces**.
 
-**Research navigation:** [Protected Core → Independent Evidence Infrastructure](research/PROTECTED_CORE_AND_EVIDENCE_INFRASTRUCTURE.md) · [Rational Logic — Protected IP Boundary](research/RATIONAL_LOGIC_IP_BOUNDARY.md) · [Verified Drift Case](https://github.com/AmbassadorOv/WANGA-LAB/tree/main/artifacts/drift-known-risk-001) · [Research Lineage](RESEARCH_LINEAGE.md) · [Repository Ecosystem](REPOSITORY_ECOSYSTEM.md)
+**Research navigation:** [WANGA Global Computational Architecture](https://github.com/AmbassadorOv/WANGA-LAB/blob/main/docs/WANGA_GLOBAL_COMPUTATIONAL_ARCHITECTURE.md) · [Protected Core → Independent Evidence Infrastructure](research/PROTECTED_CORE_AND_EVIDENCE_INFRASTRUCTURE.md) · [Rational Logic — Protected IP Boundary](research/RATIONAL_LOGIC_IP_BOUNDARY.md) · [Verified Drift Case](https://github.com/AmbassadorOv/WANGA-LAB/tree/main/artifacts/drift-known-risk-001) · [Research Lineage](RESEARCH_LINEAGE.md) · [Repository Ecosystem](REPOSITORY_ECOSYSTEM.md)
 
 **Evidence status:** WANGA-LAB **BUILT / TESTED** · drift-known-risk-001 **VERIFIED (repository-level synthetic fixture)** · Rational Logic implementation **PROTECTED_IP** · Global Algorithmic Governance Institute **PLANNED / CONCEPTUAL**
 
 This profile is the public research index for a longitudinal corpus spanning technical architecture, model-behavior analysis, evidence-preserving evaluation, logical research, and governance-oriented systems research.
+
+## WANGA Global Computational Architecture
+
+I design and develop the **WANGA Global Computational Architecture**: an integrated computational architecture connecting WANGA OS, Global Work Management, Model Fabric, Translation Architecture, Vitruvius architecture intelligence, Digital Model Agents, Evidence & Provenance, Drift Forensics & Verification, Rational Logic, Neural Thinking Machine (NTM), Work Memory, and governance interfaces.
+
+The architecture is organized around the separation:
+
+**PLAN → EXECUTE → OBSERVE → PRESERVE → RECONSTRUCT → VERIFY → PUBLISH**
+
+Its purpose is to make computational behavior, transformations, dependencies, evidence, and verification states explicit across the lifecycle of an AI-dependent system.
+
+[Architecture registry → WANGA Global Computational Architecture](https://github.com/AmbassadorOv/WANGA-LAB/blob/main/docs/WANGA_GLOBAL_COMPUTATIONAL_ARCHITECTURE.md)
 
 ## WANGA and Rational Logic
 
