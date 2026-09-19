@@ -337,6 +337,32 @@ A case is not labeled VERIFIED until live model capture, evidence hashing, exter
 - [Case matrix](cases/2026-06-drift-pack-insurance-10/CASE_MATRIX.md)
 - [Insurance pilot one-pager](docs/WANGA_INSURANCE_PILOT_ONE_PAGER_DESTINY.md)
 
+## WANGA Dual-Engine Architecture — Digital × Industrial
+
+WANGA is now specified as a dual-engine architecture connecting the **Digital Intelligence Engine** to the **Industrial Execution Engine** through a dedicated Verification, Evidence, Integration & Governance boundary.
+
+**Digital Engine:** Compute → Model Fabric → Digital Model Agents → NTM → Rational Logic → Decision Candidate
+
+**WANGA Boundary:** Evidence → Provenance → Verification → Drift Forensics → Vitruvius → Policy / Authorization → Integration & Deployment
+
+**Industrial Engine:** Organization → Operations → Machines / Infrastructure → Production / Service → Physical or Economic Consequence
+
+The deployment architecture defines five target profiles:
+
+1. **Models** — model/provider/runtime integration.
+2. **Agents** — bounded agent/tool/action integration.
+3. **Organizations** — enterprise workflow, policy and audit integration.
+4. **Industries** — operational and industrial-system integration.
+5. **Insurance / Banking / Property Evidence** — high-consequence financial and evidence workflows.
+
+Architecture specification: [WANGA Dual-Engine Architecture](docs/WANGA_DUAL_ENGINE_ARCHITECTURE.md)
+
+Deployment matrix: [WANGA Dual-Engine Deployment Matrix](docs/WANGA_DUAL_ENGINE_DEPLOYMENT_MATRIX.md)
+
+Deterministic conceptual simulation: [WANGA Dual-Engine Simulation](simulations/README.md)
+
+**Status: SPECIFIED / ACTIVE ARCHITECTURE DEVELOPMENT.** The simulation is not a live model, financial, insurance or industrial deployment and does not fabricate verification evidence.
+
 ## WANGA Execution Stack — v0.1
 
 The current execution stack now exposes three connected tracks:
