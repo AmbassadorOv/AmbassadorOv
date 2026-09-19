@@ -128,6 +128,10 @@ The following figures are **reference commercial prices**, not guaranteed market
 
 These reference prices are deliberately separated from the protected technical implementation and do not grant ownership of WANGA intellectual property.
 
+## Publication Revision
+
+Public commercial model revision: **2026-09-19**. This revision is eligible for the repository's RFC3161 anchoring workflow.
+
 ## Institutional Commercialization
 
 The intended long-term commercialization structure is for WANGA licensing and related institutional revenues to operate through an appropriate institutional entity, subject to formal legal establishment, ownership, and IP-assignment arrangements.
