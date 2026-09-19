@@ -1,0 +1,707 @@
+{
+  "schema_version": "0.1",
+  "status": "SPECIFIED / SEEDED",
+  "rule": "Public repository discovery is an external architecture source; repository linkage does not imply institutional affiliation or control.",
+  "sources": [
+    {
+      "domain": "Foreign Affairs",
+      "repository": "Udenrigsministeriet/iati-api",
+      "default_branch": "v2",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Foreign Affairs",
+      "repository": "Udenrigsministeriet/IATI-to-SQL-Database",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "alphagov/whitehall",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "alphagov/govuk-frontend",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "alphagov/govuk-design-system",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "alphagov/govuk-infrastructure",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "alphagov/notifications-api",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "alphagov/notifications-admin",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "alphagov/publisher",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "GSA/data",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "GSA/data.gov",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "GSA/api.data.gov",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "GSA/catalog.data.gov",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "GSA/data-strategy",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "GSA/datagov-harvester",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "GSA/us-data-federation",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "GSA/code-gov-web",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "GSA/federal-website-index",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "GSA/federal-open-source-repos",
+      "default_branch": "gh-pages",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "GSA/federal-apis",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "GSA/idmanagement.gov",
+      "default_branch": "staging",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "GovTechSG/sgds",
+      "default_branch": "v3",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "GovTechSG/developer.gov.sg-nm",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Government",
+      "repository": "datagovhr/data.gov.hr",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Justice",
+      "repository": "ministryofjustice/justice",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Justice",
+      "repository": "ministryofjustice/justice-gov-uk",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Justice",
+      "repository": "ministryofjustice/cloud-platform-cli",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Justice",
+      "repository": "ministryofjustice/cloud-platform-user-guide",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Justice",
+      "repository": "ministryofjustice/digital-prison-reporting-jobs",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Justice",
+      "repository": "ministryofjustice/moj-design-system",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Economy",
+      "repository": "worldbank/debt-data",
+      "default_branch": "master1",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Economy",
+      "repository": "worldbank/WDI-Production",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Economy",
+      "repository": "worldbank/MANAGE-WB",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Economy",
+      "repository": "worldbank/Python-for-Data-Science",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Economy",
+      "repository": "worldbank/dime-data-handbook",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Economy",
+      "repository": "worldbank/data360-mcp",
+      "default_branch": "dev",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Economy",
+      "repository": "worldbank/llm4data",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Economy",
+      "repository": "worldbank/ai4data",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Economy",
+      "repository": "worldbank/ai4coding",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Economy",
+      "repository": "worldbank/GOST_AIS",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Economy",
+      "repository": "worldbank/impactAI",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Economy",
+      "repository": "worldbank/AI4StatsDemo",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Central Banking",
+      "repository": "ecb/data-loader",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "openai/openai-agents-python",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "openai/mle-bench",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "openai/ai-and-efficiency",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "openai/universe",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "huggingface/transformers",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "huggingface/sentence-transformers",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "huggingface/transformers.js",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "huggingface/optimum",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "huggingface/trl",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "google-deepmind/lab",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "google-deepmind/ai-foundations",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "google-deepmind/ai-safety-gridworlds",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "google-deepmind/disco_rl",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "google-deepmind/agent_debugger",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "NVIDIA/GenerativeAIExamples",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "NVIDIA/garak",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "NVIDIA/OpenShell",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "NVIDIA/Trustworthy-AI",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "NVIDIA/NeMo-Agent-Toolkit",
+      "default_branch": "develop",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "microsoft/SynapseML",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "microsoft/onnxruntime-inference-examples",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "microsoft/InnerEye-DeepLearning",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "microsoft/nni",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Company",
+      "repository": "microsoft/Purview-Machine-Learning-Lineage-Solution-Accelerator",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Research",
+      "repository": "facebookresearch/CodeGen",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Research",
+      "repository": "facebookresearch/CrypTen",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Research",
+      "repository": "facebookresearch/fairchem",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Framework",
+      "repository": "pytorch/pytorch",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Framework",
+      "repository": "pytorch/torchtitan",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Framework",
+      "repository": "pytorch/executorch",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Framework",
+      "repository": "pytorch/elastic",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Framework",
+      "repository": "tensorflow/tensorflow",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Framework",
+      "repository": "tensorflow/models",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Framework",
+      "repository": "tensorflow/tensorboard",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "AI Framework",
+      "repository": "tensorflow/probability",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Academic",
+      "repository": "stanfordnlp/CoreNLP",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Academic",
+      "repository": "stanfordnlp/stanza",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Academic",
+      "repository": "stanfordnlp/dspy",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Academic",
+      "repository": "stanfordnlp/pyreft",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Academic",
+      "repository": "stanfordnlp/pyvene",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Academic",
+      "repository": "stanfordnlp/GloVe",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Academic",
+      "repository": "OxfordML/GPz",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Academic",
+      "repository": "OxfordML/bayesquad",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Academic",
+      "repository": "OxfordML/GaussianProcess.jl",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Academic",
+      "repository": "OxfordML/BayesianOptimisation.jl",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Academic",
+      "repository": "UCL/mlbd-lectures",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Academic",
+      "repository": "UCL/InnerEye-DeepLearning",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Academic",
+      "repository": "CambridgeEngineering/PartIA-Computing-Michaelmas",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Academic",
+      "repository": "CambridgeEngineering/PartI-Computing",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Academic",
+      "repository": "ethz-asl/kalibr",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Academic",
+      "repository": "ethz-asl/maplab",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Academic",
+      "repository": "ethz-asl/voxblox",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Research Infrastructure",
+      "repository": "CERN/awesome-cern",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Research Infrastructure",
+      "repository": "apache/spark",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Research Infrastructure",
+      "repository": "apache/datafusion",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Research Infrastructure",
+      "repository": "apache/avro",
+      "default_branch": "main",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    },
+    {
+      "domain": "Research Infrastructure",
+      "repository": "apache/hudi",
+      "default_branch": "master",
+      "discovery_status": "DISCOVERED",
+      "institutional_relationship": "NOT_ASSERTED"
+    }
+  ]
+}
