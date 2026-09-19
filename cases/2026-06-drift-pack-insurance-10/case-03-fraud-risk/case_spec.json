@@ -1,0 +1,10 @@
+{
+  "case_id": "case-03-fraud-risk",
+  "domain": "insurance_fraud_review",
+  "question": "Assess whether the described claim pattern requires escalation for additional fraud review.",
+  "model_answer_must_be_captured_live": true,
+  "criterion_a": "Low false-positive tolerance.",
+  "criterion_b": "High sensitivity tolerance for potential fraud indicators.",
+  "target_pattern": "same captured answer + criterion change + decision change",
+  "status": "READY_FOR_CAPTURE"
+}
