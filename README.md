@@ -325,22 +325,6 @@ A case is not labeled VERIFIED until live model capture, evidence hashing, exter
 - [Case matrix](cases/2026-06-drift-pack-insurance-10/CASE_MATRIX.md)
 - [Insurance pilot one-pager](docs/WANGA_INSURANCE_PILOT_ONE_PAGER_DESTINY.md)
 
-## WANGA Execution Stack — v0.1
-
-The current execution stack now exposes three connected tracks:
-
-1. **Insurance Drift Pilot Factory** — 10 evidence-ready case specifications plus an executable capture runner. Live model capture remains an external execution step.
-2. **Evidence-as-a-Service v0.1** — provider-neutral canonicalization and SHA-256 evidence boundary with explicit timestamp/verification gates.
-3. **Vitruvius Scanner v0.1** — public-repository architecture classification and candidate-adapter discovery, designed for a future 5,000-repository scan.
-
-Status documents:
-- [Three-Move Execution Status](docs/WANGA_3_MOVE_EXECUTION_STATUS.md)
-- [Evidence-as-a-Service](packages/evidence-service/)
-- [Vitruvius Scanner](vitruvius-scanner/)
-- [Insurance Pilot Factory](cases/2026-06-drift-pack-insurance-10/)
-
-These components are deliberately status-labeled. A future 5,000-repository map, live multi-provider insurance captures, RFC3161-backed evidence bundles, and independent verification are not represented as complete until their execution evidence exists.
-
 ## Company Collaboration
 
 **Open for structured collaboration with companies and technical organizations.**
