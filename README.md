@@ -1,6 +1,6 @@
 # Eran Oved Awat — Research, Systems Architecture & AI Forensics
 
-Independent research and systems architecture focused on **AI reliability, AI drift forensics, evidence infrastructure, logical reasoning, computational research, and governance interfaces**.
+Independent research and systems architecture focused on **global architecture computing, AI reliability, AI drift forensics, evidence infrastructure, logical reasoning, computational research, and governance interfaces**.
 
 **Research navigation:** [Protected Core → Independent Evidence Infrastructure](research/PROTECTED_CORE_AND_EVIDENCE_INFRASTRUCTURE.md) · [Rational Logic — Protected IP Boundary](research/RATIONAL_LOGIC_IP_BOUNDARY.md) · [Verified Drift Case](https://github.com/AmbassadorOv/WANGA-LAB/tree/main/artifacts/drift-known-risk-001) · [Research Lineage](RESEARCH_LINEAGE.md) · [Repository Ecosystem](REPOSITORY_ECOSYSTEM.md)
 
@@ -58,6 +58,7 @@ A proposed research framework for studying the interaction of algorithmic system
 | **AI Drift Forensics** | SPECIFIED | Behavioral drift, reconstruction and verification |
 | **Rational Logic / NTM / AI²³¹** | SPECIFIED | Structured reasoning, inference-time research and computational language research |
 | **Research & Governance Infrastructure** | SPECIFIED / PLANNED | Executable research, evidence interfaces and governance-oriented architecture |
+| **Global Architecture Computing / Vitruvius** | ACTIVE DEVELOPMENT | GitHub architecture mapping, family/lineage analysis, model-assisted architecture integration and verification |
 
 ## AI Drift Forensics
 
