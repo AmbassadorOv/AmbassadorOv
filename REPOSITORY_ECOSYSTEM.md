@@ -2,48 +2,57 @@
 
 Date: 2026-09-19
 
-This map distinguishes the repositories that form the public research portfolio from infrastructure dependencies, institutional research sources, upstream mirrors, and historical experiments.
+This map is a **classification layer**, not a claim that every repository is part of one product or institution. The canonical technical architecture and evidence status remain authoritative in WANGA-LAB.
 
-## Canonical research and systems
-
-| Repository | Role | Status |
-|---|---|---|
-| [WANGA-LAB](https://github.com/AmbassadorOv/WANGA-LAB) | Systems architecture, evidence/provenance, drift forensics, governance interfaces | BUILT / TESTED |
-| [AmbassadorOv](https://github.com/AmbassadorOv/AmbassadorOv) | Research identity and public research index | PUBLIC RESEARCH ARCHIVE |
-| [AI231.meta.io](https://github.com/AmbassadorOv/AI231.meta.io) | AI²³¹ / formal-language and reasoning research surface | SPECIFIED |
-| [-logicl-neural-order](https://github.com/AmbassadorOv/-logicl-neural-order) | Logic / neural-order research | RESEARCH |
-| [Nanomathematics](https://github.com/AmbassadorOv/Nanomathematics) | Mathematical research archive | RESEARCH |
-| [MNM](https://github.com/AmbassadorOv/MNM) | Mathematical / conceptual research archive | RESEARCH |
-| [Qualia](https://github.com/AmbassadorOv/Qualia) | Conceptual research archive | RESEARCH |
-
-## AI infrastructure and execution
+## 1. Public research identity
 
 | Repository | Role | Status |
 |---|---|---|
-| [ai-agent-terraform](https://github.com/AmbassadorOv/ai-agent-terraform) | Deployment and infrastructure experiments | INFRASTRUCTURE |
-| [multi-agent-orchestator](https://github.com/AmbassadorOv/multi-agent-orchestator) | Multi-agent orchestration reference implementation | EXTERNAL / RESEARCH INPUT |
-| [skills](https://github.com/AmbassadorOv/skills) | Tool/skill infrastructure | INFRASTRUCTURE |
-| [python-genai](https://github.com/AmbassadorOv/python-genai) | Provider SDK source/fork workspace | INFRASTRUCTURE / UPSTREAM |
-| [openai_tiktoken](https://github.com/AmbassadorOv/openai_tiktoken) | Tokenization dependency/source workspace | INFRASTRUCTURE / UPSTREAM |
+| [AmbassadorOv](https://github.com/AmbassadorOv/AmbassadorOv) | Public research index and identity/archive | PUBLIC RESEARCH ARCHIVE |
+
+**AmbassadorOv is a research identity/archive. It is not a diplomatic or governmental status.**
+
+## 2. WANGA-LAB core / research-program inputs
+
+| Repository | Architectural placement | Status |
+|---|---|---|
+| [WANGA-LAB](https://github.com/AmbassadorOv/WANGA-LAB) | Canonical systems architecture, evidence/provenance, drift forensics, verification | BUILT / TESTED |
+| [AI231.meta.io](https://github.com/AmbassadorOv/AI231.meta.io) | AI²³¹ / formal-language research surface | SPECIFIED / RESEARCH |
+| [-logicl-neural-order](https://github.com/AmbassadorOv/-logicl-neural-order) | Logic / neural-order research input | RESEARCH INPUT |
+| [Nanomathematics](https://github.com/AmbassadorOv/Nanomathematics) | Mathematical research archive/input | RESEARCH INPUT |
+| [MNM](https://github.com/AmbassadorOv/MNM) | Mathematical/conceptual archive | RESEARCH INPUT |
+| [Qualia](https://github.com/AmbassadorOv/Qualia) | Conceptual research archive | RESEARCH INPUT |
+| [multi-agent-orchestator](https://github.com/AmbassadorOv/multi-agent-orchestator) | External/reference orchestration pattern | EXTERNAL / RESEARCH INPUT |
+
+These repositories should **not** be represented as independently verified components of WANGA-LAB merely because they are related to its research themes. Integration requires an explicit WANGA interface and evidence gate.
+
+## 3. AI infrastructure / execution / publication
+
+| Repository | Role | Status |
+|---|---|---|
+| [ai-agent-terraform](https://github.com/AmbassadorOv/ai-agent-terraform) | Deployment/infrastructure workspace | INFRASTRUCTURE |
+| [skills](https://github.com/AmbassadorOv/skills) | Agent skill/tooling infrastructure | INFRASTRUCTURE |
 | [chatgpt-scientific-publications-extension](https://github.com/AmbassadorOv/chatgpt-scientific-publications-extension) | Scientific publication interface/reference | PUBLICATION INFRASTRUCTURE |
+| [python-genai](https://github.com/AmbassadorOv/python-genai) | Provider SDK source/fork workspace | UPSTREAM / INFRASTRUCTURE |
+| [openai_tiktoken](https://github.com/AmbassadorOv/openai_tiktoken) | Tokenization source/dependency workspace | UPSTREAM / INFRASTRUCTURE |
 
-## Governance and institutional research
+## 4. Future Institute research-source layer
 
-These repositories are related to governance/institutional research history. They are **not** represented as proof that the Institute for Global Algorithmic Neuro-Governance currently exists as a formal governmental or regulatory body.
+**Institute for Global Algorithmic Neuro-Governance — PLANNED / CONCEPTUAL**
+
+The following repositories may serve as historical research material or future source material for a governance-research program. They are **not evidence that the Institute currently exists as a formal institution**:
 
 | Repository | Role | Status |
 |---|---|---|
-| [World-Party-Federation-Branches-managers](https://github.com/AmbassadorOv/World-Party-Federation-Branches-managers) | Institutional / organizational research artifact | HISTORICAL / GOVERNANCE |
-| [think-thank-you-of-cyber-Department](https://github.com/AmbassadorOv/think-thank-you-of-cyber-Department) | Cyber / institutional concept archive | HISTORICAL / GOVERNANCE |
-| [TTTTproject-un.govt](https://github.com/AmbassadorOv/TTTTproject-un.govt) | Institutional / international project archive | HISTORICAL / GOVERNANCE |
-| [TTTT-0.0.0.0.1](https://github.com/AmbassadorOv/TTTT-0.0.0.0.1) | Institutional project archive | HISTORICAL / GOVERNANCE |
-| [ARK-KERNEL-OVERSIGHT](https://github.com/AmbassadorOv/ARK-KERNEL-OVERSIGHT) | ARK governance/oversight research | HISTORICAL / GOVERNANCE |
-| [vqbshtfsprojects.org](https://github.com/AmbassadorOv/vqbshtfsprojects.org) | Institutional/project surface | HISTORICAL / GOVERNANCE |
-| [https-AmbassadorOv.io](https://github.com/AmbassadorOv/https-AmbassadorOv.io) | Public-site surface | PUBLICATION / IDENTITY |
+| [World-Party-Federation-Branches-managers](https://github.com/AmbassadorOv/World-Party-Federation-Branches-managers) | Organizational/institutional research history | HISTORICAL SOURCE |
+| [think-thank-you-of-cyber-Department](https://github.com/AmbassadorOv/think-thank-you-of-cyber-Department) | Cyber/institutional concept archive | HISTORICAL SOURCE |
+| [TTTTproject-un.govt](https://github.com/AmbassadorOv/TTTTproject-un.govt) | International/institutional project archive | HISTORICAL SOURCE |
+| [TTTT-0.0.0.0.1](https://github.com/AmbassadorOv/TTTT-0.0.0.0.1) | Institutional project archive | HISTORICAL SOURCE |
+| [ARK-KERNEL-OVERSIGHT](https://github.com/AmbassadorOv/ARK-KERNEL-OVERSIGHT) | ARK governance/oversight research | HISTORICAL SOURCE |
 
-## Historical and experimental archive
+**Rule:** historical governance material is not promoted into the Institute framework until its provenance, purpose, and relationship to the proposed research program are explicitly documented.
 
-These repositories remain attributable as historical source material but are not presented as current core architecture:
+## 5. Historical / experimental archive
 
 - [-from-Corsican-](https://github.com/AmbassadorOv/-from-Corsican-)
 - [fluffy-parakeet](https://github.com/AmbassadorOv/fluffy-parakeet)
@@ -56,9 +65,11 @@ These repositories remain attributable as historical source material but are not
 - [test-notebook-links](https://github.com/AmbassadorOv/test-notebook-links)
 - [GOOGLE_API_KEY](https://github.com/AmbassadorOv/GOOGLE_API_KEY)
 
-## Upstream / vendor / source workspaces
+These remain historical sources and should not appear as current achievements on the public profile without a specific research rationale.
 
-These should not be presented as original research simply because they exist under the account:
+## 6. Upstream / vendor / mirror workspaces
+
+These repositories should not be presented as original research simply because they exist under the account:
 
 - [googleapis](https://github.com/AmbassadorOv/googleapis)
 - [docs](https://github.com/AmbassadorOv/docs)
@@ -77,14 +88,14 @@ These should not be presented as original research simply because they exist und
 - [unetbootin](https://github.com/AmbassadorOv/unetbootin)
 - [awesome-chatgpt-prompts](https://github.com/AmbassadorOv/awesome-chatgpt-prompts)
 
-## Profile rule
+## 7. Profile rule
 
-The public profile highlights **canonical research and systems** first.
+The public profile highlights:
 
-Governance/institutional projects are presented as historical or conceptual research sources unless a formal institutional status is independently established.
+**Person → AmbassadorOv research archive → Programs → Canonical repositories → Research inputs → Historical sources**
 
-Upstream mirrors and dependencies are identified as such.
+It does not flatten all account repositories into one portfolio.
 
-Historical experiments remain preserved rather than silently rewritten into current achievements.
+The governing rule is:
 
-This map is a navigation layer. The repository-level architecture and evidence status remain authoritative in WANGA-LAB.
+**One responsibility → one canonical owner → explicit interface → evidence status → verification gate.**
