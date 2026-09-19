@@ -2,7 +2,9 @@
 
 Independent research and systems architecture focused on **AI reliability, AI drift forensics, evidence infrastructure, logical reasoning, computational research, and governance interfaces**.
 
-**Research navigation:** [Protected Core → Independent Evidence Infrastructure](research/PROTECTED_CORE_AND_EVIDENCE_INFRASTRUCTURE.md) · [Rational Logic — Protected IP Boundary](research/RATIONAL_LOGIC_IP_BOUNDARY.md) · [Research Lineage](RESEARCH_LINEAGE.md) · [Repository Ecosystem](REPOSITORY_ECOSYSTEM.md)
+**Research navigation:** [Protected Core → Independent Evidence Infrastructure](research/PROTECTED_CORE_AND_EVIDENCE_INFRASTRUCTURE.md) · [Rational Logic — Protected IP Boundary](research/RATIONAL_LOGIC_IP_BOUNDARY.md) · [Verified Drift Case](https://github.com/AmbassadorOv/WANGA-LAB/tree/main/artifacts/drift-known-risk-001) · [Research Lineage](RESEARCH_LINEAGE.md) · [Repository Ecosystem](REPOSITORY_ECOSYSTEM.md)
+
+**Evidence status:** WANGA-LAB **BUILT / TESTED** · drift-known-risk-001 **VERIFIED (repository-level synthetic fixture)** · Rational Logic implementation **PROTECTED_IP** · Global Algorithmic Governance Institute **PLANNED / CONCEPTUAL**
 
 This profile is the public research index for a longitudinal corpus spanning technical architecture, model-behavior analysis, evidence-preserving evaluation, logical research, and governance-oriented systems research.
 
