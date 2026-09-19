@@ -1,0 +1,78 @@
+name: Vitruvius 5000 Repository Scan
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/vitruvius-5000-scan.yml"
+      - "vitruvius-scanner/repos-5000.txt"
+      - "vitruvius-scanner/run_5000.py"
+  workflow_dispatch:
+    inputs:
+      repos_file:
+        description: "Repository list file in owner/name format"
+        required: true
+        default: "vitruvius-scanner/repos-5000.txt"
+      batch_size:
+        description: "Repositories per checkpointed batch"
+        required: true
+        default: "100"
+      workers:
+        description: "Concurrent batches"
+        required: true
+        default: "20"
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Resolve inputs
+        id: cfg
+        env:
+          REPOS_FILE_INPUT: ${{ inputs.repos_file }}
+          BATCH_SIZE_INPUT: ${{ inputs.batch_size }}
+          WORKERS_INPUT: ${{ inputs.workers }}
+        run: |
+          echo "repos_file=${REPOS_FILE_INPUT:-vitruvius-scanner/repos-5000.txt}" >> "$GITHUB_OUTPUT"
+          echo "batch_size=${BATCH_SIZE_INPUT:-100}" >> "$GITHUB_OUTPUT"
+          echo "workers=${WORKERS_INPUT:-20}" >> "$GITHUB_OUTPUT"
+      - name: Validate corpus
+        env:
+          REPOS_FILE: ${{ steps.cfg.outputs.repos_file }}
+        run: |
+          test -f "$REPOS_FILE"
+          python - <<'PY'
+          import os
+          p=os.environ["REPOS_FILE"]
+          repos=[x.strip() for x in open(p,encoding="utf-8") if x.strip() and not x.startswith("#")]
+          print("repositories:",len(repos))
+          if len(repos) > 5000: raise SystemExit("Corpus exceeds 5000 repositories")
+          if len(repos) != 5000: raise SystemExit(f"Expected exactly 5000 repositories, got {len(repos)}")
+          if len(repos) != len(set(repos)): raise SystemExit("Corpus contains duplicate repositories")
+          if any("/" not in x or len(x.split("/")) != 2 for x in repos): raise SystemExit("Corpus contains invalid owner/name entries")
+          PY
+      - name: Run checkpointed parallel scan
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python vitruvius-scanner/run_5000.py \
+            --repos-file "${{ steps.cfg.outputs.repos_file }}" \
+            --batch-size "${{ steps.cfg.outputs.batch_size }}" \
+            --workers "${{ steps.cfg.outputs.workers }}" \
+            --out-dir vitruvius-runs
+      - name: Upload scan artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: vitruvius-5000-scan
+          path: vitruvius-runs/
+          if-no-files-found: warn
