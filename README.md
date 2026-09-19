@@ -185,6 +185,25 @@ See [Research Lineage & Repository Corpus Map](RESEARCH_LINEAGE.md) and [Reposit
 
 Earlier periods that are not independently represented in GitHub remain marked for reconstruction from dated primary records rather than being asserted from inference.
 
+## Cryptographic Evidence — RFC3161 Anchor
+
+**COMMERCIAL_MODEL.md — RFC3161 timestamp evidence: VERIFIED**
+
+The current commercial model publication is anchored with an RFC3161 TimeStampToken. The GitHub Actions verification workflow returned **Verification: OK** after checking the returned timestamp response against the exact timestamp request and the TSA trust chain.
+
+- **Document SHA-256:** `8339638cc685effbeb26d7e1a478f4768712e23e5c6b3064002770fa2c25f280`
+- **Git commit containing the anchored revision:** `604801bb4ccb146967da77a9ddb459e28d8ea37f`
+- **TSA timestamp:** `2026-09-19 19:14:36 GMT`
+- **Hash algorithm:** SHA-256
+- **TSA policy:** `tsa_policy1`
+- **Verification result:** **OK**
+- **Evidence package:** [RFC3161 evidence](evidence/rfc3161-commercial-model/)
+- **GitHub Actions run:** [35463725654](https://github.com/AmbassadorOv/AmbassadorOv/actions/runs/35463725654)
+
+RFC 3161 provides a protocol for a Time Stamping Authority to issue a signed token over a data imprint, with the requester required to verify that the token corresponds to the requested data and that the token's signature and relevant fields validate. citeturn410199search0
+
+This evidence establishes the timestamped integrity claim for the referenced publication artifact. It is **not** a claim of legal ownership, regulatory certification, or verification of the entire WANGA architecture.
+
 ## Research and governance applications
 
 The research can interface with organizations that need technical evidence concerning AI-dependent systems, including:
