@@ -290,6 +290,23 @@ The long-term research objective is an expanding **architecture family tree / ar
 
 Current implementation status: **ARCHITECTURE SPECIFICATION / ACTIVE DEVELOPMENT**. This does not claim that all of GitHub has already been exhaustively indexed or that a physical general-purpose computer has been completed.
 
+## Commercialization & Principal Architect Role
+
+WANGA is intended to be commercialized through **non-exclusive software licensing and configurable deployments**, not through an automatic transfer of the underlying intellectual property.
+
+The public commercial framework is documented in [COMMERCIAL_MODEL.md](COMMERCIAL_MODEL.md).
+
+### Principal Architect / Research Continuity
+
+**Eran Oved Awat — Principal Researcher / Systems Architect**
+
+The WANGA program is not presented as a conventional employment search. Where a commercial deployment requires continuity of architecture, technical direction, integration, research transfer, specialized development, or ongoing architectural stewardship, the principal researcher/architect may be required as part of the transaction.
+
+Any such participation is to be defined separately in the applicable commercial, consulting, development, or transition agreement. The commercial software license and any participation agreement are separate contractual instruments.
+
+**Commercial principle:**
+**License the software and deployment configuration; preserve the underlying IP boundary; retain the principal architectural expertise where the deployment requires it.**
+
 ## Contact
 
 Research contact: beywolf@gmail.com
