@@ -2,6 +2,8 @@
 
 Independent research and systems architecture focused on **AI reliability, AI drift forensics, evidence infrastructure, logical reasoning, and governance interfaces**.
 
+**Research navigation:** [Rational Logic — Protected IP Boundary](research/RATIONAL_LOGIC_IP_BOUNDARY.md) · [Research Lineage](RESEARCH_LINEAGE.md) · [Repository Ecosystem](REPOSITORY_ECOSYSTEM.md)
+
 This profile is the public research index for work spanning technical architecture, executable research, model-behavior analysis, and evidence-preserving evaluation.
 
 ## Research identity
@@ -35,6 +37,7 @@ Detailed research notes and supporting methodology:
 - [WANGA-LAB Systems Architecture](profiles/wanga-lab.md)
 - [Logic, NTM & AI²³¹](profiles/logic-ntm-ai231.md)
 - [Research, Governance & Scientific Infrastructure](profiles/research-governance.md)
+- [Rational Logic — Protected IP Boundary](research/RATIONAL_LOGIC_IP_BOUNDARY.md)
 
 ## AI Drift Forensics
 
@@ -85,6 +88,8 @@ Research in this area explores:
 - AI²³¹ and formal relationships among symbolic structures, context, place and computation
 
 These items are explicitly classified as **research specifications unless an implementation and verification record establishes otherwise**.
+
+The Rational Logic implementation itself is intentionally maintained outside the public research corpus as protected proprietary intellectual property. Its architectural role and public research boundary are documented separately in [Rational Logic — Protected IP Boundary](research/RATIONAL_LOGIC_IP_BOUNDARY.md).
 
 ## Research method
 
