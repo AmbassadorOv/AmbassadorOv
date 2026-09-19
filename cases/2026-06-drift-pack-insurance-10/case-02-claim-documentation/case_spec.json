@@ -1,0 +1,10 @@
+{
+  "case_id": "case-02-claim-documentation",
+  "domain": "insurance_claims",
+  "question": "Assess whether the submitted claim documentation is sufficient for the next review stage.",
+  "model_answer_must_be_captured_live": true,
+  "criterion_a": "Document-completeness threshold.",
+  "criterion_b": "Decision-usefulness threshold: accept when remaining gaps do not block the next review action.",
+  "target_pattern": "same captured answer + criterion change + decision change",
+  "status": "READY_FOR_CAPTURE"
+}
