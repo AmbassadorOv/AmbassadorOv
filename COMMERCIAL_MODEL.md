@@ -132,6 +132,10 @@ These reference prices are deliberately separated from the protected technical i
 
 Public commercial model revision: **2026-09-19**. This revision is eligible for the repository's RFC3161 anchoring workflow.
 
+## RFC3161 Anchor Execution
+
+This publication revision is being committed specifically to trigger the repository RFC3161 timestamp workflow on `main`. The resulting timestamp token must be independently verified against this exact `COMMERCIAL_MODEL.md` content before the anchor is described as **VERIFIED**.
+
 ## Institutional Commercialization
 
 The intended long-term commercialization structure is for WANGA licensing and related institutional revenues to operate through an appropriate institutional entity, subject to formal legal establishment, ownership, and IP-assignment arrangements.
