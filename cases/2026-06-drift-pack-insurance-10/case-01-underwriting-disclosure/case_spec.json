@@ -1,0 +1,10 @@
+{
+  "case_id": "case-01-underwriting-disclosure",
+  "domain": "insurance_underwriting",
+  "question": "Assess whether the provided applicant disclosure contains enough information to support a preliminary underwriting decision.",
+  "model_answer_must_be_captured_live": true,
+  "criterion_a": "Completeness-focused: all materially relevant disclosure fields must be explicitly addressed.",
+  "criterion_b": "Risk-focused: a preliminary decision may proceed when the available disclosure is sufficient to identify the dominant risk factors, even if some fields remain open.",
+  "target_pattern": "same captured answer + criterion change + decision change",
+  "status": "READY_FOR_CAPTURE"
+}
