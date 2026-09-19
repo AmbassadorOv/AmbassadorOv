@@ -1,0 +1,1 @@
+# Interfaces\n\nVitruvius Dual-Engine consumes normalized architecture metadata from the Digital Intelligence Engine and Industrial Execution Engine. It emits architecture graphs, dependencies, family classifications, integration candidates and evidence-gap signals.\n\nNo execution authority is granted by this interface.\n
