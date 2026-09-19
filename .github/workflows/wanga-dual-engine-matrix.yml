@@ -1,0 +1,28 @@
+name: WANGA Dual-Engine Matrix
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'simulations/**'
+      - 'docs/WANGA_*ENGINE*.md'
+
+jobs:
+  simulate:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        profile:
+          - models
+          - agents
+          - organizations
+          - industries
+          - insurance_banking_property
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run deterministic matrix
+        run: python simulations/run_dual_engine_matrix.py
