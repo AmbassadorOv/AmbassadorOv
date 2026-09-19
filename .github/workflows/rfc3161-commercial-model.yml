@@ -1,0 +1,68 @@
+name: RFC3161 Commercial Model Anchor
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "COMMERCIAL_MODEL.md"
+
+permissions:
+  contents: write
+
+jobs:
+  timestamp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create and verify RFC3161 timestamp
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mkdir -p evidence/rfc3161-commercial-model
+
+          MODEL="COMMERCIAL_MODEL.md"
+          SHA="$(sha256sum "$MODEL" | awk '{print $1}')"
+          TS="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          REF="${GITHUB_SHA}"
+
+          echo "$SHA  $MODEL" > evidence/rfc3161-commercial-model/model.sha256
+          {
+            echo "repository=AmbassadorOv/AmbassadorOv"
+            echo "commit=$REF"
+            echo "file=$MODEL"
+            echo "sha256=$SHA"
+            echo "timestamp_request_utc=$TS"
+          } > evidence/rfc3161-commercial-model/anchor-metadata.txt
+
+          curl -fsSL -o evidence/rfc3161-commercial-model/cacert.pem https://freetsa.org/files/cacert.pem
+          curl -fsSL -o evidence/rfc3161-commercial-model/tsacert.crt https://freetsa.org/files/tsacert.crt
+
+          openssl ts -query -data "$MODEL" -sha256 -cert -out evidence/rfc3161-commercial-model/commercial-model.tsq
+          curl -fsS             -H "Content-Type: application/timestamp-query"             --data-binary @evidence/rfc3161-commercial-model/commercial-model.tsq             https://freetsa.org/tsr             -o evidence/rfc3161-commercial-model/commercial-model.tsr
+
+          openssl ts -reply             -in evidence/rfc3161-commercial-model/commercial-model.tsr             -text             -token_out             > evidence/rfc3161-commercial-model/timestamp.txt
+
+          openssl ts -verify             -data "$MODEL"             -in evidence/rfc3161-commercial-model/commercial-model.tsr             -CAfile evidence/rfc3161-commercial-model/cacert.pem             -untrusted evidence/rfc3161-commercial-model/tsacert.crt
+
+          grep -E "Time stamp:|Policy OID:|Hash Algorithm:" evidence/rfc3161-commercial-model/timestamp.txt             > evidence/rfc3161-commercial-model/timestamp-summary.txt || true
+
+          rm -f evidence/rfc3161-commercial-model/cacert.pem evidence/rfc3161-commercial-model/tsacert.crt
+
+      - name: Commit timestamp evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add evidence/rfc3161-commercial-model
+          if git diff --cached --quiet; then
+            echo "No timestamp evidence changes to commit."
+            exit 0
+          fi
+
+          git commit -m "evidence: RFC3161 anchor COMMERCIAL_MODEL.md"
+          git push origin HEAD:main
