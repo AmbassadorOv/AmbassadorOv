@@ -134,17 +134,24 @@ The broader research history is reconstructed from dated technical artifacts, re
 
 ## Repository ecosystem
 
-The account contains a broader repository history than the public research core. Repositories are classified rather than presented as one undifferentiated portfolio:
+The GitHub account contains a broader repository history than the current research core. The profile therefore uses explicit architectural classification:
 
-**Canonical:** WANGA-LAB, AI231.meta.io, Logic/NTM/AI²³¹ research, Nanomathematics, MNM, Qualia.
+**Public research identity**  
+AmbassadorOv — research identity and public technical archive.
 
-**Infrastructure:** ai-agent-terraform, skills, provider/dependency workspaces, publication tooling.
+**WANGA-LAB core and research inputs**  
+WANGA-LAB is the canonical systems/evidence layer. AI231.meta.io, -logicl-neural-order, Nanomathematics, MNM, Qualia, and selected orchestration research are treated as research inputs or archives until an explicit WANGA integration and verification record exists.
 
-**Governance / institutional research:** World-Party-Federation-Branches-managers, cyber/institutional archives, TTTT projects, ARK-KERNEL-OVERSIGHT and related surfaces. These remain historical/conceptual research sources and are not evidence that the planned Institute for Global Algorithmic Neuro-Governance is a formal institution.
+**Infrastructure / publication**  
+ai-agent-terraform, skills, and publication tooling support execution or publication. They are not automatically research claims.
 
-**Upstream / vendor / experimental:** maintained as source or historical material and not presented as original research.
+**Future Institute research-source layer**  
+Governance and institutional repositories are retained as historical/conceptual source material for the proposed **Institute for Global Algorithmic Neuro-Governance (PLANNED / CONCEPTUAL)**. They are not evidence that a formal institute currently exists.
 
-See the [Repository Ecosystem Map](REPOSITORY_ECOSYSTEM.md) and the [WANGA-LAB architecture registry](https://github.com/AmbassadorOv/WANGA-LAB/blob/main/docs/ARCHITECTURE/REPOSITORY_ATLAS_2026-09-19.json).
+**Upstream / vendor / experimental**  
+Forks, mirrors, dependencies, imported projects, and historical experiments remain attributable but are not presented as original research.
+
+See the [Repository Ecosystem Map](REPOSITORY_ECOSYSTEM.md).
 
 ## Selected repositories
 
