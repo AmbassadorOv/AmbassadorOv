@@ -1,0 +1,27 @@
+name: WANGA Evidence and Vitruvius Tests
+on:
+  push:
+    paths:
+      - 'packages/evidence-service/**'
+      - 'vitruvius-scanner/**'
+      - 'docs/WANGA_3_MOVE_EXECUTION_STATUS.md'
+  pull_request:
+    paths:
+      - 'packages/evidence-service/**'
+      - 'vitruvius-scanner/**'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Evidence service contract test
+        working-directory: packages/evidence-service
+        run: python test_contract.py
+      - name: Vitruvius classifier test
+        working-directory: vitruvius-scanner
+        run: python test_scanner.py
+      - name: Compile
+        run: python -m py_compile packages/evidence-service/server.py vitruvius-scanner/scanner.py
