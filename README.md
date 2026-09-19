@@ -199,6 +199,24 @@ The intended distinction is simple:
 - [chatgpt-scientific-publications-extension](https://github.com/AmbassadorOv/chatgpt-scientific-publications-extension)
 
 
+## Current project — WANGA Neural Algorithmic Governance Computer
+
+**This is the project I am currently building.**
+
+I am designing **WANGA as a proposed neural computer architecture for algorithmic governance**: a recursive computational system intended to organize computation, reasoning, evidence, verification, provenance, lineage and governance as one machine-traversable architecture.
+
+Its core architectural engine is **Vitruvius**. Vitruvius decomposes heterogeneous architectures recursively:
+
+**Architecture → Family → Subfamily → Child → Family Atom → Subatom → Neural Endpoint → Global Computational Graph**
+
+A family atom can belong to multiple architectural families. This allows Vitruvius to discover cross-family relationships instead of forcing every component into a single hierarchy. Governance, provenance, lineage, evidence state and verification boundaries are attached at the atomic level.
+
+The intended result is a **neural algorithmic-governance computer architecture** rather than a GitHub automation tool or an LLM wrapper. GitHub is currently one source-control and evidence surface; the long-term system is intended to operate over a persistent computational graph and orchestration substrate connecting repositories, research data, computational agents, evidence systems, governance controls and external platforms.
+
+In practical terms, my work is the architecture and implementation of the layer that can turn distributed computational systems into a **recursive, governed, evidence-aware neural computing network**.
+
+Current status: **ACTIVE DEVELOPMENT / ARCHITECTURE PROTOTYPE**. This describes the project under construction; it does not claim that a completed physical computer or exhaustive global architecture graph already exists.
+
 ## Current research role — Global Architecture Computing / Vitruvius
 
 I design and implement the Vitruvius architecture-intelligence layer for WANGA: a research architecture that maps distributed software architectures into families and lineages, measures interfaces and dependencies, uses GPT/LLM/neural systems as model-assisted analysis instruments, and connects compatible structures through explicit adapters into the WANGA computational architecture.
