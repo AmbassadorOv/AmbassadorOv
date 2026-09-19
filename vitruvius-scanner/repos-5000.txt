@@ -1,0 +1,4 @@
+# WANGA / Vitruvius 5000-repository corpus
+# Replace this placeholder file with exactly 5000 owner/name entries before running.
+# Example:
+# owner/repository
