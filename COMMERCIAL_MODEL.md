@@ -132,7 +132,7 @@ These reference prices are deliberately separated from the protected technical i
 
 Public commercial model revision: **2026-09-19**. This revision is eligible for the repository's RFC3161 anchoring workflow.
 
-**RFC3161 execution retrigger: 2026-09-19.**
+**RFC3161 execution retrigger after TSA certificate-path fix: 2026-09-19.**
 
 ## RFC3161 Anchor Execution
 
