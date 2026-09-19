@@ -2,7 +2,15 @@
 
 ## Rational Logic
 
-Rational Logic is treated as a core layer for structured reasoning, constraint handling and verification. It is not defined as a conversational persona or an autonomous agent.
+Rational Logic is treated as a core layer for structured reasoning, constraint handling, explicit logical evaluation and verification around probabilistic systems.
+
+It is not defined as a conversational persona or an autonomous agent.
+
+Its implementation is maintained outside the public research corpus as **PROTECTED_IP / PROPRIETARY_IMPLEMENTATION**.
+
+The public record documents its research role, architectural position, interfaces and boundaries without disclosing proprietary implementation details.
+
+See [Rational Logic — Protected IP Boundary](../research/RATIONAL_LOGIC_IP_BOUNDARY.md).
 
 ## Neural Thinking Machine
 
@@ -27,3 +35,15 @@ AI²³¹ connects computational language research with the 231 unordered pairs a
 The research investigates formal relations among symbols, place/context and computation, including the working proposition that a defined computational frame must exist before a transformation can be meaningfully evaluated.
 
 The work is approached as a formal/computational research problem, not as a mystical claim.
+
+## Relationship to the evidence layer
+
+The broader research architecture separates:
+
+**Protected reasoning capability**
+
+from
+
+**Public evidence, drift-forensics and verification capability**
+
+This separation allows the public corpus to document how AI behavior can be examined and evidenced without publishing the proprietary Rational Logic implementation.
