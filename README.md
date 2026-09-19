@@ -309,6 +309,26 @@ The long-term research objective is an expanding **architecture family tree / ar
 
 Current implementation status: **ARCHITECTURE SPECIFICATION / ACTIVE DEVELOPMENT**. This does not claim that all of GitHub has already been exhaustively indexed or that a physical general-purpose computer has been completed.
 
+## Company Collaboration
+
+**Open for structured collaboration with companies and technical organizations.**
+
+The WANGA research program can be engaged through clearly scoped collaboration models, including:
+
+- **Technical pilot / proof of concept** — evaluate a defined AI-dependent workflow with measurable evidence and verification criteria.
+- **AI reliability evaluation** — model behavior analysis, drift detection, controlled evaluation and evidence-preserving reporting.
+- **AI Drift Forensics** — reconstruction and analysis of material behavioral changes across an operational lifecycle.
+- **Evidence & provenance infrastructure** — design of evidence chains, integrity controls, timestamping and verification interfaces.
+- **Governance integration** — technical interfaces for AI-risk, audit and governance workflows.
+- **Non-exclusive software licensing** — license selected WANGA modules and deployment configurations without automatic transfer of underlying IP.
+- **Custom engineering / architecture integration** — scoped implementation, deployment and technical continuity where required by the engagement.
+
+Company engagements are intended to be defined by **scope, evidence requirements, deployment environment, security requirements, integration needs and contractual terms**. The public research profile does not represent WANGA as a regulatory certification service or a claim of governmental authority.
+
+**Collaboration contact:** beywolf@gmail.com
+
+See the [WANGA Commercial Model](COMMERCIAL_MODEL.md) for the current proposed licensing structure and reference pricing.
+
 ## Commercialization & Principal Architect Role
 
 WANGA is intended to be commercialized through **non-exclusive software licensing and configurable deployments**, not through an automatic transfer of the underlying intellectual property.
