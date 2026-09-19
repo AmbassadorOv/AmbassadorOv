@@ -5,6 +5,9 @@ on:
     branches: [main]
     paths:
       - "COMMERCIAL_MODEL.md"
+  pull_request:
+    paths:
+      - "COMMERCIAL_MODEL.md"
 
 permissions:
   contents: write
@@ -51,7 +54,14 @@ jobs:
 
           rm -f evidence/rfc3161-commercial-model/cacert.pem evidence/rfc3161-commercial-model/tsacert.crt
 
+      - name: Upload RFC3161 evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: wanga-commercial-model-rfc3161
+          path: evidence/rfc3161-commercial-model
+
       - name: Commit timestamp evidence
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         shell: bash
         run: |
           set -euo pipefail
