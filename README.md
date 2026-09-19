@@ -325,6 +325,32 @@ A case is not labeled VERIFIED until live model capture, evidence hashing, exter
 - [Case matrix](cases/2026-06-drift-pack-insurance-10/CASE_MATRIX.md)
 - [Insurance pilot one-pager](docs/WANGA_INSURANCE_PILOT_ONE_PAGER_DESTINY.md)
 
+## WANGA Institutional & Industrial Layer
+
+WANGA now includes a specified institutional-industrial architecture connecting the proposed **Global Algorithmic Governance Institute** to a proposed **Office of Industry & Commerce**, with a technical public-sector interface pattern for stakeholders such as a Ministry of Finance.
+
+The architecture defines two economic engines:
+
+**Digital Economic Engine:** Compute → Models → Agents → Reasoning → Evidence → Verification → Decision
+
+**Industrial Economic Engine:** Capital / Energy / Materials → Machines → Organizations → Production / Services → Economic / Physical Outcomes
+
+Between them sits the **WANGA Integration, Evidence, Verification & Governance Boundary**.
+
+Five deployment profiles are defined:
+
+1. Models
+2. Agents
+3. Organizations
+4. Industries
+5. Insurance / Banking / Property Evidence
+
+Documentation: [Institutional & Industrial Architecture](docs/WANGA_INSTITUTIONAL_INDUSTRIAL_ARCHITECTURE.md) · [Economic Engine Deployment Map](docs/WANGA_ECONOMIC_ENGINE_DEPLOYMENT_MAP.md)
+
+The deterministic dual-engine simulation is designed to run in parallel with the Vitruvius 5,000-repository research track. It does not contact live ministries, banks, insurers, industrial systems or live models.
+
+**Status: SPECIFIED / SIMULATION WORKFLOW ADDED.** No government relationship, regulatory authority, live deployment, or VERIFIED industrial result is claimed.
+
 ## WANGA Execution Stack — v0.1
 
 The current execution stack now exposes three connected tracks:
