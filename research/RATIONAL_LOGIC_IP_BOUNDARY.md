@@ -28,6 +28,20 @@ Accordingly:
 
 **INTERFACE / ROLE DISCLOSED** does not imply **IMPLEMENTATION DISCLOSED**.
 
+## WANGA and Rational Logic
+
+WANGA is the computational system/architecture around which the broader research stack is organized.
+
+Rational Logic is not treated as an unrelated add-on. It is the **canonical logic and reasoning layer of WANGA**.
+
+Conceptually:
+
+**WANGA = computational architecture**
+
+**Rational Logic = canonical logic/reasoning layer**
+
+This is an architectural distinction, not a claim that WANGA is separate physical hardware. The public documentation describes the computational relationship while preserving the deeper formal treatment and proprietary implementation.
+
 ## Architectural role
 
 Within the broader WANGA research architecture, Rational Logic is positioned as a reasoning and verification layer that can interact with the Neural Thinking Machine (NTM) and other system components.
