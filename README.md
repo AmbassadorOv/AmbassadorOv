@@ -87,6 +87,24 @@ This is a research and forensic-analysis layer. It is not insurance coverage, un
 
 **Entry points:** Architecture & Philosophy · Anthropology & AI Systems · Human–Machine Relations · AI²³¹ · Rational Logic
 
+## External Institutional Context
+
+My professional research profile also sits within a broader ecosystem of international research, technology, leadership, resilience, and institutional-risk discussions.
+
+I receive communications from the **World Economic Forum (WEF)**, including invitations and programme information for its virtual programme. The September 2026 programme communication provided to this profile describes five series:
+
+- **Global Signals Briefings** — global agenda, major Forum moments, reports, and signals to watch.
+- **Frontier Technologies** — AI, robotics, autonomous systems, quantum technologies, and related technological developments.
+- **Geo-Economics & Resilience** — geopolitics, markets, cybersecurity, supply chains, and organizational resilience.
+- **China Future Trends** — economic, demographic, innovation, sustainability, and foreign-affairs developments concerning China.
+- **Leadership & Foresight in Practice** — foresight, leadership, judgement, and decision-making under disruption.
+
+The same communication lists forthcoming sessions including **The AI Playbook for Financial Services (30 September 2026)** and **World Models: Can AI Learn How the World Works? (12 November 2026)**.
+
+This is relevant context for the research profile because it overlaps with the domains studied here: AI, institutional systems, financial-sector risk, resilience, technological change, and decision-making.
+
+**Important distinction:** receiving WEF communications, programme invitations, or membership-related information does **not by itself establish that I am a WEF member, expert, fellow, delegate, speaker, or official representative**. No such status is claimed here without independent documentation.
+
 ## The Core Question
 
 A complex AI system can produce an answer that looks correct while the definitions, premises, inference conditions, or evaluation criteria behind that answer have changed.
