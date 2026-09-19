@@ -185,6 +185,25 @@ See [Research Lineage & Repository Corpus Map](RESEARCH_LINEAGE.md) and [Reposit
 
 Earlier periods that are not independently represented in GitHub remain marked for reconstruction from dated primary records rather than being asserted from inference.
 
+## Cryptographic Evidence — RFC3161 Anchor
+
+**COMMERCIAL_MODEL.md — RFC3161 timestamp evidence: VERIFIED**
+
+The current commercial model publication is anchored with an RFC3161 TimeStampToken. The GitHub Actions verification workflow returned **Verification: OK** after checking the returned timestamp response against the exact timestamp request and the TSA trust chain.
+
+- **Document SHA-256:** `8339638cc685effbeb26d7e1a478f4768712e23e5c6b3064002770fa2c25f280`
+- **Git commit containing the anchored revision:** `604801bb4ccb146967da77a9ddb459e28d8ea37f`
+- **TSA timestamp:** `2026-09-19 19:14:36 GMT`
+- **Hash algorithm:** SHA-256
+- **TSA policy:** `tsa_policy1`
+- **Verification result:** **OK**
+- **Evidence package:** [RFC3161 evidence](evidence/rfc3161-commercial-model/)
+- **GitHub Actions run:** [35463725654](https://github.com/AmbassadorOv/AmbassadorOv/actions/runs/35463725654)
+
+RFC 3161 provides a protocol for a Time Stamping Authority to issue a signed token over a data imprint, with the requester required to verify that the token corresponds to the requested data and that the token's signature and relevant fields validate. citeturn410199search0
+
+This evidence establishes the timestamped integrity claim for the referenced publication artifact. It is **not** a claim of legal ownership, regulatory certification, or verification of the entire WANGA architecture.
+
 ## Research and governance applications
 
 The research can interface with organizations that need technical evidence concerning AI-dependent systems, including:
@@ -289,6 +308,26 @@ GPT/LLM and neural systems are used as model-assisted instruments for architectu
 The long-term research objective is an expanding **architecture family tree / architecture book** in which external repositories remain independently sourced, architectural relationships are provenance-traceable, compatible structures can be composed through explicit adapters, and verified descendants can become new lineage records.
 
 Current implementation status: **ARCHITECTURE SPECIFICATION / ACTIVE DEVELOPMENT**. This does not claim that all of GitHub has already been exhaustively indexed or that a physical general-purpose computer has been completed.
+
+## Company Collaboration
+
+**Open for structured collaboration with companies and technical organizations.**
+
+The WANGA research program can be engaged through clearly scoped collaboration models, including:
+
+- **Technical pilot / proof of concept** — evaluate a defined AI-dependent workflow with measurable evidence and verification criteria.
+- **AI reliability evaluation** — model behavior analysis, drift detection, controlled evaluation and evidence-preserving reporting.
+- **AI Drift Forensics** — reconstruction and analysis of material behavioral changes across an operational lifecycle.
+- **Evidence & provenance infrastructure** — design of evidence chains, integrity controls, timestamping and verification interfaces.
+- **Governance integration** — technical interfaces for AI-risk, audit and governance workflows.
+- **Non-exclusive software licensing** — license selected WANGA modules and deployment configurations without automatic transfer of underlying IP.
+- **Custom engineering / architecture integration** — scoped implementation, deployment and technical continuity where required by the engagement.
+
+Company engagements are intended to be defined by **scope, evidence requirements, deployment environment, security requirements, integration needs and contractual terms**. The public research profile does not represent WANGA as a regulatory certification service or a claim of governmental authority.
+
+**Collaboration contact:** beywolf@gmail.com
+
+See the [WANGA Commercial Model](COMMERCIAL_MODEL.md) for the current proposed licensing structure and reference pricing.
 
 ## Commercialization & Principal Architect Role
 
