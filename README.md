@@ -13,7 +13,7 @@ AmbassadorOv represents the interface layer between research domains, computatio
 
 ### Institutional research framework
 
-**Institute for Global Algorithmic Neuro-Governance**  
+**Institute for Global Algorithmic Governance**  
 **Status: PLANNED / CONCEPTUAL**
 
 A proposed research framework for studying the interaction of algorithmic systems, reasoning systems, evidence, institutions, and governance. It is not presented here as an existing governmental or formal regulatory institution.
@@ -127,6 +127,10 @@ Potential application domains include:
 - public-sector and governance interfaces
 
 These are research and service domains, not claims of regulatory authority, insurance underwriting, certification, or governmental status.
+
+## Research lineage
+
+The 46-repository account corpus is not treated as a single undifferentiated body of original work. The public index separates canonical research repositories, supporting infrastructure, governance lineage, external forks, and historical/low-evidence repositories. See the [Research Lineage & Repository Corpus Map](docs/RESEARCH_LINEAGE_AND_REPOSITORY_MAP.md).
 
 ## Historical record
 
