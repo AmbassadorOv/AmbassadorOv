@@ -1,0 +1,52 @@
+name: WANGA Insurance Pilot Factory Validation
+
+on:
+  pull_request:
+    paths:
+      - "cases/2026-06-drift-pack-insurance-10/**"
+      - "factory/**"
+      - "docs/WANGA_INSURANCE_PILOT_ONE_PAGER_DESTINY.md"
+  push:
+    branches: [main]
+    paths:
+      - "cases/2026-06-drift-pack-insurance-10/**"
+      - "factory/**"
+      - "docs/WANGA_INSURANCE_PILOT_ONE_PAGER_DESTINY.md"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate Python
+        run: python3 -m py_compile factory/validate_case.py
+
+      - name: Validate manifest
+        run: python3 - <<'PY'
+import json
+from pathlib import Path
+p = Path("cases/2026-06-drift-pack-insurance-10/MANIFEST.json")
+data = json.loads(p.read_text())
+assert data["status"] == "READY_FOR_CAPTURE"
+assert len(data["cases"]) == 10
+print("PASS: ten-case manifest")
+PY
+
+      - name: Validate case specifications
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path("cases/2026-06-drift-pack-insurance-10")
+          specs = sorted(root.glob("case-*/case_spec.json"))
+          assert len(specs) == 10, f"expected 10 case specs, got {len(specs)}"
+          for p in specs:
+              d=json.loads(p.read_text())
+              assert d["model_answer_must_be_captured_live"] is True
+              assert d["status"] == "READY_FOR_CAPTURE"
+          print("PASS: ten case specifications")
+          PY

@@ -1,0 +1,10 @@
+{
+  "case_id": "case-05-repair-estimate",
+  "domain": "property_claims",
+  "question": "Assess whether the supplied repair estimate should be accepted for the next claims stage.",
+  "model_answer_must_be_captured_live": true,
+  "criterion_a": "Strict cost-reasonableness threshold.",
+  "criterion_b": "Operational continuity threshold: permit progression when variance is explainable and bounded.",
+  "target_pattern": "same captured answer + criterion change + decision change",
+  "status": "READY_FOR_CAPTURE"
+}

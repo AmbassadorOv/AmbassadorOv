@@ -1,0 +1,10 @@
+{
+  "case_id": "case-04-medical-relevance",
+  "domain": "insurance_medical_review",
+  "question": "Assess whether the supplied medical information is relevant to the insurance decision being evaluated.",
+  "model_answer_must_be_captured_live": true,
+  "criterion_a": "Narrow relevance: direct causal or policy-defined relevance only.",
+  "criterion_b": "Broad relevance: indirect risk or contextual relevance may count.",
+  "target_pattern": "same captured answer + criterion change + decision change",
+  "status": "READY_FOR_CAPTURE"
+}

@@ -1,0 +1,10 @@
+{
+  "case_id": "case-08-deductible-calculation",
+  "domain": "claims_calculation",
+  "question": "Determine whether the presented claim calculation is ready for approval review.",
+  "model_answer_must_be_captured_live": true,
+  "criterion_a": "Arithmetic-confidence-first.",
+  "criterion_b": "Policy-text-confidence-first.",
+  "target_pattern": "same captured answer + criterion change + decision change",
+  "status": "READY_FOR_CAPTURE"
+}
