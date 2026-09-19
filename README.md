@@ -132,6 +132,20 @@ These are research and service domains, not claims of regulatory authority, insu
 
 The broader research history is reconstructed from dated technical artifacts, repositories, correspondence, and other primary records. Where the available record does not establish a fact, it is left unasserted rather than inferred.
 
+## Repository ecosystem
+
+The account contains a broader repository history than the public research core. Repositories are classified rather than presented as one undifferentiated portfolio:
+
+**Canonical:** WANGA-LAB, AI231.meta.io, Logic/NTM/AI²³¹ research, Nanomathematics, MNM, Qualia.
+
+**Infrastructure:** ai-agent-terraform, skills, provider/dependency workspaces, publication tooling.
+
+**Governance / institutional research:** World-Party-Federation-Branches-managers, cyber/institutional archives, TTTT projects, ARK-KERNEL-OVERSIGHT and related surfaces. These remain historical/conceptual research sources and are not evidence that the planned Institute for Global Algorithmic Neuro-Governance is a formal institution.
+
+**Upstream / vendor / experimental:** maintained as source or historical material and not presented as original research.
+
+See the [Repository Ecosystem Map](REPOSITORY_ECOSYSTEM.md) and the [WANGA-LAB architecture registry](https://github.com/AmbassadorOv/WANGA-LAB/blob/main/docs/ARCHITECTURE/REPOSITORY_ATLAS_2026-09-19.json).
+
 ## Selected repositories
 
 - [WANGA-LAB](https://github.com/AmbassadorOv/WANGA-LAB)
