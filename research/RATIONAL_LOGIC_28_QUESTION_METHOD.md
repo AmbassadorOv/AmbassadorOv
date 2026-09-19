@@ -30,6 +30,22 @@ This boundary is separate from, but compatible with, the protected Rational Logi
 
 See also: [Protected Core → Independent Evidence Infrastructure](PROTECTED_CORE_AND_EVIDENCE_INFRASTRUCTURE.md).
 
+## WANGA as a distinct computational architecture
+
+WANGA is treated in this research program as a **distinct computational system/architecture**, rather than merely a wrapper around a conventional AI model.
+
+Within that architecture:
+
+**Rational Logic = the canonical logic and reasoning layer of WANGA**
+
+The distinction is therefore:
+
+**WANGA → computational system / architecture**
+
+**Rational Logic → logic and reasoning substrate**
+
+This describes a computational architecture and does **not** claim a separate physical computer or hardware platform. The public repository documents the architectural relationship; the deeper formal treatment and protected implementation remain outside the public disclosure boundary.
+
 ## Core idea
 
 A conventional evaluation asks:

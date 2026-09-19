@@ -8,6 +8,20 @@ Independent research and systems architecture focused on **AI reliability, AI dr
 
 This profile is the public research index for a longitudinal corpus spanning technical architecture, model-behavior analysis, evidence-preserving evaluation, logical research, and governance-oriented systems research.
 
+## WANGA and Rational Logic
+
+**WANGA is treated in this research program as a distinct computational system/architecture, not merely as a wrapper around a conventional AI model.**
+
+Within that architecture, **Rational Logic is the canonical reasoning and logic layer of WANGA**.
+
+The distinction is:
+
+**WANGA = computational system / architecture**
+
+**Rational Logic = logic and reasoning substrate**
+
+This is an architectural statement, not a claim that WANGA is a separate physical computer or hardware platform. The public corpus documents the computational relationship while the deeper formal treatment and proprietary implementation remain outside the public disclosure boundary.
+
 ## The research model
 
 The public architecture is intentionally organized around a separation:
