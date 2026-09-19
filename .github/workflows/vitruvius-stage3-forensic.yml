@@ -1,0 +1,35 @@
+name: Vitruvius Stage 3 Forensic Analysis
+
+on:
+  workflow_run:
+    workflows: ["Vitruvius 5000 Repository Scan"]
+    types: [completed]
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  analyze:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download completed scan artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          mkdir -p input
+          gh run download "$RUN_ID" --repo "$GITHUB_REPOSITORY" --name vitruvius-5000-scan --dir input
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run deterministic Stage 3 analysis
+        run: |
+          python vitruvius-scanner/stage3_forensic.py             --input-dir input             --output-dir stage3-results
+      - name: Upload Stage 3 evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: vitruvius-stage3-forensic-analysis
+          path: stage3-results/
