@@ -13,7 +13,7 @@ AmbassadorOv represents the interface layer between research domains, computatio
 
 ### Institutional research framework
 
-**Institute for Global Algorithmic Governance**  
+**Global Algorithmic Governance Institute**  
 **Status: PLANNED / CONCEPTUAL**
 
 A proposed research framework for studying the interaction of algorithmic systems, reasoning systems, evidence, institutions, and governance. It is not presented here as an existing governmental or formal regulatory institution.
@@ -150,7 +150,7 @@ WANGA-LAB is the canonical systems/evidence layer. AI231.meta.io, -logicl-neural
 ai-agent-terraform, skills, and publication tooling support execution or publication. They are not automatically research claims.
 
 **Future Institute research-source layer**  
-Governance and institutional repositories are retained as historical/conceptual source material for the proposed **Institute for Global Algorithmic Neuro-Governance (PLANNED / CONCEPTUAL)**. They are not evidence that a formal institute currently exists.
+Governance and institutional repositories are retained as historical/conceptual source material for the proposed **Global Algorithmic Governance Institute (PLANNED / CONCEPTUAL)**. They are not evidence that a formal institute currently exists.
 
 **Upstream / vendor / experimental**  
 Forks, mirrors, dependencies, imported projects, and historical experiments remain attributable but are not presented as original research.

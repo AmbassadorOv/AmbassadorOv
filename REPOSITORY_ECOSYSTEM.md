@@ -2,85 +2,108 @@
 
 Date: 2026-09-19
 
-This map separates the GitHub account into canonical research, research inputs, infrastructure, governance-source material, publication tooling, upstream/experimental material, and unrelated or imported repositories.
+This map classifies the 46 repositories in the AmbassadorOv account by responsibility and evidentiary role. Repository presence is not itself a claim of authorship, implementation, or institutional status.
 
-## 1. Canonical WANGA-LAB core
+## A. Canonical research / architecture
 
-| Repository | Role | Status |
+| Repository | Placement | Status |
 |---|---|---|
-| WANGA-LAB | Systems architecture, evidence/provenance, drift forensics, verification, operational intake | CANONICAL |
-| ai-agent-terraform | Deployment/infrastructure support and historical infrastructure experiments | SUPPORTING / HISTORICAL |
+| `WANGA-LAB` | Systems architecture, evidence, drift forensics, verification, operational intake | CANONICAL |
+| `AmbassadorOv` | Public research identity, index and archive | CANONICAL PROFILE |
+| `ai-agent-terraform` | Deployment and infrastructure support | SUPPORTING |
+| `AI231.meta.io` | AI²³¹ / logic research surface | RESEARCH INPUT |
 
-## 2. Research inputs — Rational Logic / NTM / AI231
+## B. Logic, mathematics, NTM and computational reasoning
 
-| Repository | Role | Status |
+| Repository | Placement | Status |
 |---|---|---|
-| AI231.meta.io | AI231 research/publication surface | RESEARCH INPUT |
-| -logicl-neural-order | Logic / neural-order research archive | RESEARCH INPUT |
-| Nanomathematics | Mathematical/conceptual research archive | RESEARCH INPUT |
-| MNM | Nanomathematics-related research archive | RESEARCH INPUT |
-| Qualia | Conceptual research archive | RESEARCH INPUT |
-| multi-agent-orchestator | Multi-agent/orchestration research source | RESEARCH INPUT |
-| ARK-KERNEL-OVERSIGHT | ARK oversight research placeholder | EXPERIMENTAL / RESEARCH INPUT |
+| `-logicl-neural-order` | Logic / neural-order archive | RESEARCH INPUT |
+| `Nanomathematics` | Mathematical / conceptual research | RESEARCH INPUT |
+| `MNM` | Related mathematical research | RESEARCH INPUT |
+| `Qualia` | Conceptual reasoning / research archive | RESEARCH INPUT |
+| `multi-agent-orchestator` | Multi-agent orchestration research | RESEARCH INPUT / TOOLING |
+| `ARK-KERNEL-OVERSIGHT` | ARK oversight research placeholder | EXPERIMENTAL |
 
-These repositories are not automatically represented as implemented WANGA components. Integration requires an explicit interface and evidence-status record.
+## C. Global Algorithmic Governance lineage
 
-## 3. Research / publication infrastructure
-
-| Repository | Role | Status |
+| Repository | Placement | Status |
 |---|---|---|
-| chatgpt-scientific-publications-extension | Scientific-publication tooling / imported upstream project | PUBLICATION TOOLING / UPSTREAM |
-| skills | Agent-skill CLI/tooling | INFRASTRUCTURE / UPSTREAM |
-| https-AmbassadorOv.io | Web/publication placeholder | PUBLICATION SURFACE |
-| vqbshtfsprojects.org | Empty publication/domain placeholder | ARCHIVE / PLACEHOLDER |
+| `think-thank-you-of-cyber-Department` | Governance / cyber source material | HISTORICAL SOURCE |
+| `TTTTproject-un.govt` | Institutional/governance source archive | HISTORICAL SOURCE |
+| `TTTT-0.0.0.0.1` | Governance-era placeholder | HISTORICAL / LOW-EVIDENCE |
+| `World-Party-Federation-Branches-managers` | Historical organizational source material | HISTORICAL SOURCE |
+| `branches-` | Branch/institutional experiment | HISTORICAL / AMBIGUOUS |
+| `-from-Corsican-` | Historical organizational placeholder | HISTORICAL / AMBIGUOUS |
+| `O-Ms` | Historical/ambiguous archive | AMBIGUOUS |
 
-## 4. Governance / institutional source material
+Canonical institutional name:
 
-| Repository | Role | Status |
+**Global Algorithmic Governance Institute**
+
+Status:
+
+**PLANNED / CONCEPTUAL**
+
+Historical repositories in this group are source material, not proof of current legal, governmental, diplomatic, or regulatory status.
+
+## D. Research and publication infrastructure
+
+| Repository | Placement | Status |
 |---|---|---|
-| think-thank-you-of-cyber-Department | Governance/cyber research material | GOVERNANCE SOURCE / HISTORICAL |
-| TTTTproject-un.govt | World-Party-Federation-related archive | GOVERNANCE SOURCE / HISTORICAL |
-| World-Party-Federation-Branches-managers | Related historical branch-management material | GOVERNANCE SOURCE / HISTORICAL |
+| `chatgpt-scientific-publications-extension` | Scientific publication/retrieval tooling | PUBLICATION TOOLING |
+| `skills` | Agent-skill/tooling infrastructure | TOOLING / UPSTREAM |
+| `docs` | Documentation corpus / upstream documentation | UPSTREAM / REFERENCE |
+| `https-AmbassadorOv.io` | Website/publication surface | PUBLICATION SURFACE |
+| `vqbshtfsprojects.org` | Empty publication/domain placeholder | PLACEHOLDER |
+| `test-notebook-links` | Notebook/reference utility | EXPERIMENTAL |
+| `stunning-octo-garbanzo` | Unclassified workspace | AMBIGUOUS |
+| `glowing-octo-waddle` | Unclassified workspace | AMBIGUOUS |
+| `fluffy-parakeet` | Unclassified workspace | AMBIGUOUS |
 
-These repositories are source material for the proposed Institute for Global Algorithmic Neuro-Governance. They do not establish that such an institute currently exists.
+## E. External / upstream / vendor / imported repositories
 
-## 5. Imported / upstream / unrelated technical repositories
+These repositories are not presented as original research merely because they are owned by the account:
 
-The account also contains forks, mirrors, vendor projects, demos, and unrelated software repositories. These should not be presented as original research.
+`googleapis`, `desktop`, `platform-samples`, `extensions`, `mermaid`, `vscode-azure-blockchain-ethereum`, `eslint`, `openai_tiktoken`, `generative-ai-docs`, `mujoco`, `cookbook`, `vscode-docs`, `mediapipe`, `python-genai`, `awesome-chatgpt-prompts`, `unetbootin`.
 
-Examples include: googleapis, platform-samples, extensions, desktop, mermaid, vscode-azure-blockchain-ethereum, eslint, openai_tiktoken, generative-ai-docs, mujoco, cookbook, vscode-docs, mediapipe, python-genai, awesome-chatgpt-prompts, unetbootin.
+Placement: **UPSTREAM / IMPORTED / REFERENCE**
 
-## 6. Legacy / ambiguous repositories
+## F. Security-sensitive or configuration-named repositories
 
-The following require no promotion until their provenance and purpose are explicitly documented:
+| Repository | Placement | Status |
+|---|---|---|
+| `GOOGLE_API_KEY` | Security-sensitive/configuration-named repository | ISOLATE / AUDIT |
+| `-` | Experimental simulation repository | HISTORICAL / AMBIGUOUS |
+| `-artificial-y` | Experimental/ambiguous AI archive | AMBIGUOUS |
 
-- -
-- -artificial-y
-- O-Ms
-- TTTT-0.0.0.0.1
-- globalSpeed
-- stunning-octo-garbanzo
-- glowing-octo-waddle
-- branches-
-- fluffy-parakeet
-- -from-Corsican-
-- test-notebook-links
+A credential-named repository should never be presented as a research asset merely because of its name. Secrets, if any, require separate security handling.
 
-## Classification rule
+## G. Historical lineage rule
 
-A repository enters the canonical architecture only when:
+The account is compiled longitudinally:
 
-PROVENANCE → PURPOSE → OWNER/LAYER → INTERFACE → STATUS → TEST → VERIFICATION
+**historical record → research domain → artifact → architecture layer → evidence status → canonical owner**
 
-No repository is promoted merely because its name appears related to a research concept.
+The purpose is not to erase older work. It is to prevent older, imported, experimental, or ambiguous material from being mistaken for the current canonical research architecture.
 
-## Public-profile rule
+## Promotion gate
 
-The public profile should expose:
+A source repository may be promoted into the canonical architecture only after:
+
+**PROVENANCE → PURPOSE → OWNER/LAYER → INTERFACE → STATUS → TEST → VERIFICATION**
+
+## Public profile presentation
+
+The public profile should foreground:
+
 1. canonical research;
-2. clearly identified research inputs;
+2. research inputs;
 3. supporting infrastructure;
-4. historical governance-source material;
-5. imported/upstream projects separately.
+4. governance-source lineage;
+5. historical and imported material as separately labeled archives.
 
-This keeps the profile professionally legible without deleting historical evidence.
+The public profile should not require a visitor to infer which repositories are central merely from repository count or recent activity.
+
+## Longitudinal research statement
+
+The broader research history may extend beyond the dates represented by the current GitHub repositories. The public account therefore documents a **longitudinal research corpus**, while earlier periods that are not independently represented in GitHub remain explicitly marked for reconstruction from dated primary records.
