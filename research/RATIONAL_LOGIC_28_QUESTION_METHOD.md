@@ -8,6 +8,28 @@ It is **not** the proprietary implementation of Rational Logic.
 
 The public record explains what is examined, why it is examined, and how evidence can be preserved around the examination. The underlying decision procedure, algorithms, weighting mechanisms, and implementation of the Rational Logic core remain protected intellectual property.
 
+## Public research-depth boundary
+
+The 28-question material shown in this repository is intentionally **not a complete representation of the underlying Rational Logic research program**.
+
+The public GitHub corpus exposes a methodological surface: enough to establish the research question, the classes of reasoning failure under investigation, the evidence discipline, and the relationship between reasoning and forensic verification.
+
+It does **not** attempt to compress the full research into a small public matrix, a simplified scoring table, or a minimal implementation example.
+
+That omission is methodological, not accidental.
+
+The underlying research is broader than the public presentation currently disclosed here. The 28 questions should therefore be understood as a **publicly describable research interface**, not as a claim that the entire research program can be captured by 28 rows in a table.
+
+A small matrix would risk collapsing distinctions that the research is specifically designed to preserve:
+
+**definition vs. premise → premise vs. inference → inference vs. evaluation → evaluation vs. criterion → correction vs. criterion change → re-evaluation vs. apparent self-correction**
+
+For that reason, this repository documents the conceptual structure and selected representative controls while intentionally withholding the deeper research machinery and complete formal treatment.
+
+This boundary is separate from, but compatible with, the protected Rational Logic implementation boundary. Some material is withheld because it belongs to protected IP; other material is withheld because a public summary would materially distort the depth, dependency structure, or research context of the underlying work.
+
+See also: [Protected Core → Independent Evidence Infrastructure](PROTECTED_CORE_AND_EVIDENCE_INFRASTRUCTURE.md).
+
 ## Core idea
 
 A conventional evaluation asks:

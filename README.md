@@ -81,6 +81,20 @@ Current status: **VERIFIED (repository-level synthetic fixture)**
 
 The case demonstrates criterion drift under a deterministic fixture: the model output is unchanged while the evaluation criterion changes and the resulting decision changes. It is a research artifact, not a completed client investigation.
 
+## Public research-depth boundary
+
+The material publicly presented here is intentionally **not a complete representation of the underlying Rational Logic research**.
+
+The 28-question method documents a methodological surface: the classes of reasoning and evaluation change under investigation, the evidence discipline, and the relationship between reasoning behavior and forensic verification.
+
+It is not intended to compress the deeper research into a small matrix, a compact scorecard, or a minimal implementation example. Doing so would collapse distinctions the research is specifically designed to preserve, including:
+
+**definition vs. premise · premise vs. inference · inference vs. evaluation · evaluation vs. criterion · correction vs. criterion change · re-evaluation vs. apparent self-correction**
+
+Therefore, the absence of a complete 28-question research matrix from the public repository is **intentional**. It reflects a methodological disclosure boundary and the depth of the underlying research, not an unfinished documentation task.
+
+This boundary complements the separate **PROTECTED_IP** boundary around the Rational Logic implementation.
+
 ## Rational Logic, NTM & AI²³¹
 
 Rational Logic is a core research direction for structured reasoning, logical evaluation, constraint handling and verification around probabilistic systems.
