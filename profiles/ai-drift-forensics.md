@@ -52,11 +52,11 @@ The mechanism set depends on the case. External timestamping or anchoring is not
 
 The current empirical fixture is:
 
-**CASE_REF_2026_DRIFT_KNOWN_RISK_001**
+**[CASE_REF_2026_DRIFT_KNOWN_RISK_001](https://github.com/AmbassadorOv/WANGA-LAB/tree/main/artifacts/drift-known-risk-001)**
 
-Current status: **PLANNED**
+Current status: **VERIFIED (repository-level synthetic fixture)**
 
-The artifact structure supports evidence inventory, replay inputs, normalized outputs and verification gates. A planned fixture is not represented as a completed client investigation or external finding.
+The case demonstrates criterion drift under a deterministic fixture: the model output is unchanged while the evaluation criterion changes and the resulting decision changes. This is a research artifact, not a completed client investigation or external finding.
 
 ## Public / protected boundary
 

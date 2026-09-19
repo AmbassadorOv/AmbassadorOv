@@ -73,11 +73,11 @@ The exact mechanisms used depend on the case. External timestamping or anchoring
 
 ### Current empirical track
 
-**drift-known-risk-001**  
+**[drift-known-risk-001](https://github.com/AmbassadorOv/WANGA-LAB/tree/main/artifacts/drift-known-risk-001)**  
 Case reference: **CASE_REF_2026_DRIFT_KNOWN_RISK_001**  
-Current status: **PLANNED**
+Current status: **VERIFIED (repository-level synthetic fixture)**
 
-The repository contains the case structure, evidence manifest, replay fixture and verification gates. It is not represented as a completed client investigation.
+The case demonstrates criterion drift under a deterministic fixture: the model output is unchanged while the evaluation criterion changes and the resulting decision changes. It is a research artifact, not a completed client investigation.
 
 ## Rational Logic, NTM & AI²³¹
 
