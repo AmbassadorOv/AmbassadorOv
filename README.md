@@ -309,6 +309,22 @@ The long-term research objective is an expanding **architecture family tree / ar
 
 Current implementation status: **ARCHITECTURE SPECIFICATION / ACTIVE DEVELOPMENT**. This does not claim that all of GitHub has already been exhaustively indexed or that a physical general-purpose computer has been completed.
 
+## WANGA Insurance Pilot Factory
+
+**10-case real-model evidence program — READY FOR CAPTURE**
+
+The WANGA Insurance Pilot Factory defines a repeatable process for producing insurance AI drift evidence across underwriting, claims, fraud review, medical relevance, repair estimates, catastrophe prioritization, coverage interpretation, calculations, vendor risk, and appeals.
+
+Core test:
+
+**same question → same captured answer → criterion change → decision comparison**
+
+A case is not labeled VERIFIED until live model capture, evidence hashing, external RFC3161 timestamping, replay, and independent verification all pass.
+
+- [10-case factory specification](cases/2026-06-drift-pack-insurance-10/)
+- [Case matrix](cases/2026-06-drift-pack-insurance-10/CASE_MATRIX.md)
+- [Insurance pilot one-pager](docs/WANGA_INSURANCE_PILOT_ONE_PAGER_DESTINY.md)
+
 ## Company Collaboration
 
 **Open for structured collaboration with companies and technical organizations.**
