@@ -38,6 +38,58 @@ The relationship is complementary rather than separate:
 
 The institutional framework is intended to develop into an independent international research and governance institution, subject to formal establishment, registration, and any applicable legal or institutional recognition.
 
+---
+
+## Executive Summary — WANGA in 20 Seconds
+
+**WANGA — Neural Algorithmic Governance Computer**  
+A proposed computational architecture integrating **computation, reasoning, evidence, verification, provenance, architecture intelligence and governance**.
+
+**WANGA → Computational / Architectural / Execution Core**  
+**Global Algorithmic Governance Institute → Functional / Research / Governance Layer**
+
+### Research Navigation
+- **[WANGA-LAB — Computational & Evidence Engine](https://github.com/AmbassadorOv/WANGA-LAB)**
+- **[Global Architecture Computing / Vitruvius](https://github.com/AmbassadorOv/WANGA-LAB/tree/main/vitruvius-scanner)**
+- **[AI²³¹ — Research Gateway](https://github.com/AmbassadorOv/AI231.meta.io)**
+- **[Research Lineage](RESEARCH_LINEAGE.md)**
+- **[Repository Ecosystem](REPOSITORY_ECOSYSTEM.md)**
+
+### Evidence & Execution Status
+- **WANGA-LAB:** BUILT / TESTED
+- **drift-known-risk-001:** VERIFIED — repository-level synthetic fixture
+- **Rational Logic:** PROTECTED_IP
+- **Insurance Pilot Factory:** READY FOR CAPTURE — 10 case specifications
+- **WANGA Execution Stack v0.1:** Insurance Pilot + Evidence-as-a-Service + Vitruvius Scanner
+- **RFC3161 Evidence Anchor:** VERIFIED for the referenced `COMMERCIAL_MODEL.md` revision
+
+### Global Computational Architecture
+`PLAN → EXECUTE → OBSERVE → PRESERVE → RECONSTRUCT → VERIFY → PUBLISH`
+
+**Vitruvius** maps distributed architectures into families, subfamilies, components, lineages and candidate connections. **Evidence & Verification** determine what can be accepted as verified.
+
+### Cryptographic Evidence
+**COMMERCIAL_MODEL.md — RFC3161 timestamp evidence: VERIFIED**
+
+`SHA-256: 8339638cc685effbeb26d7e1a478f4768712e23e5c6b3064002770fa2c25f280`  
+`TSA: 2026-09-19 19:14:36 GMT` · `Verification: OK` · `Run: 35463725654`
+
+This anchors the referenced publication artifact; it does **not** constitute legal ownership, regulatory certification, or verification of the entire WANGA architecture.
+
+### Company Collaboration
+Available collaboration models include:
+- Technical pilots / proof of concept
+- AI reliability and model-behavior evaluation
+- AI Drift Forensics
+- Evidence & provenance infrastructure
+- Governance integration
+- Non-exclusive software licensing
+- Custom architecture integration
+
+**Contact:** beywolf@gmail.com
+
+> **The section above is the fast index. The full research, architecture, evidence boundaries, implementation status and historical corpus remain below for technical readers, researchers, auditors and collaborators.**
+
 # Eran Oved Awat — Research, Systems Architecture & AI Forensics
 
 Independent research and systems architecture focused on **global architecture computing, AI reliability, AI drift forensics, evidence infrastructure, logical reasoning, computational research, and governance interfaces**.
