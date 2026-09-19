@@ -14,6 +14,30 @@ This is my **main project**: **WANGA — a proposed neural computer architecture
 
 ---
 
+## WANGA + Global Algorithmic Governance Institute
+
+**WANGA is the computer being architected. The Global Algorithmic Governance Institute is the functional, research, governance, and institutional layer being built around and as part of that computer's intended operating model.**
+
+The relationship is complementary rather than separate:
+
+**WANGA** → the **computational core, architecture, orchestration, execution, evidence, verification, and system substrate**.
+
+**Global Algorithmic Governance Institute** → the **functional, research, governance, methodological, institutional, and application layer** that defines how those computational capabilities are organized and used.
+
+**Together:** an integrated computational-governance system in which the Institute is not an unrelated external project, but a designed functional layer of the broader WANGA architecture.
+
+**Architecture relationship**
+
+`Global Algorithmic Governance Institute ↔ WANGA Neural Algorithmic Governance Computer`
+
+`Institute = Functional / Research / Governance Layer`
+
+`WANGA = Computational / Architectural / Execution Core`
+
+`Together = Integrated Computational Governance System`
+
+The institutional framework is intended to develop into an independent international research and governance institution, subject to formal establishment, registration, and any applicable legal or institutional recognition.
+
 # Eran Oved Awat — Research, Systems Architecture & AI Forensics
 
 Independent research and systems architecture focused on **global architecture computing, AI reliability, AI drift forensics, evidence infrastructure, logical reasoning, computational research, and governance interfaces**.
@@ -97,7 +121,6 @@ Core sequence:
 **Baseline → Observation → Drift Detection → Evidence Preservation → Reconstruction → Causal / Dependency Analysis → Attribution → Risk Quantification → Intervention → Verification**
 
 The research distinguishes:
-
 **Point Error · Definition Drift · Premise Drift · Inference Drift · Criterion Drift · Question-Fidelity Drift · Evidence/Source-Fidelity Drift · Terminological Instability · Response-Trajectory Drift**
 
 A central investigation is whether an apparent correction actually changes the underlying evaluation criterion:
@@ -198,7 +221,6 @@ See [Research Lineage & Repository Corpus Map](RESEARCH_LINEAGE.md) and [Reposit
 Earlier periods that are not independently represented in GitHub remain marked for reconstruction from dated primary records rather than being asserted from inference.
 
 ## Cryptographic Evidence — RFC3161 Anchor
-
 **COMMERCIAL_MODEL.md — RFC3161 timestamp evidence: VERIFIED**
 
 The current commercial model publication is anchored with an RFC3161 TimeStampToken. The GitHub Actions verification workflow returned **Verification: OK** after checking the returned timestamp response against the exact timestamp request and the TSA trust chain.
@@ -298,7 +320,6 @@ In practical terms, my work is the architecture and implementation of the layer 
 Current status: **ACTIVE DEVELOPMENT / ARCHITECTURE PROTOTYPE**. This describes the project under construction; it does not claim that a completed physical computer or exhaustive global architecture graph already exists.
 
 ## Current research role — Global Architecture Computing / Vitruvius
-
 I design and implement the Vitruvius architecture-intelligence layer for WANGA: a research architecture that maps distributed software architectures into families and lineages, measures interfaces and dependencies, uses GPT/LLM/neural systems as model-assisted analysis instruments, and connects compatible structures through explicit adapters into the WANGA computational architecture.
 
 The current work includes an executable GitHub architecture-indexing layer, family taxonomy, architecture-book registry and scheduled refresh workflow. The research direction is to build an expanding architecture family tree and architecture book over GitHub, preserving provenance and verification boundaries while testing candidate architectural descendants.
@@ -398,7 +419,6 @@ Company engagements are intended to be defined by **scope, evidence requirements
 **Collaboration contact:** beywolf@gmail.com
 
 See the [WANGA Commercial Model](COMMERCIAL_MODEL.md) for the current proposed licensing structure and reference pricing.
-
 ## Commercialization & Principal Architect Role
 
 WANGA is intended to be commercialized through **non-exclusive software licensing and configurable deployments**, not through an automatic transfer of the underlying intellectual property.
