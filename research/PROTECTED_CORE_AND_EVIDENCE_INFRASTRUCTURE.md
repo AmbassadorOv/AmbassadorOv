@@ -10,6 +10,20 @@ The central distinction is:
 
 The protected core is **Rational Logic**. The public layer does not attempt to reproduce or disclose its proprietary implementation. Instead, the public corpus documents the interfaces, evidence discipline, forensic methodology, and verification structures that can be applied to AI systems more broadly.
 
+## Research-depth boundary
+
+The public documentation is intentionally not a complete transcription of the underlying Rational Logic research.
+
+The public layer exposes architecture, methodology, evidence logic, and selected research controls. It does not attempt to reduce the deeper research into a small matrix or a compact implementation example.
+
+This distinction is methodological as well as IP-related:
+
+- **Public methodological surface:** explains the research question and the observable control structure.
+- **Protected implementation:** keeps proprietary algorithms and mechanisms undisclosed.
+- **Deeper research corpus:** contains a larger body of reasoning, dependencies, formal treatment, experiments, and historical development that should not be represented as exhausted by the public summary.
+
+Therefore, absence of a complete 28-question matrix from the public repository is not a missing deliverable. It is an explicit boundary on how much of the underlying research is represented publicly.
+
 ## 1. Protected reasoning core
 
 **Rational Logic** is a core research direction for structured reasoning, explicit logical evaluation, constraint handling, and verification around probabilistic systems.
