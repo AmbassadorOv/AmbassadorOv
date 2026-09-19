@@ -2,100 +2,68 @@
 
 Date: 2026-09-19
 
-This map is a **classification layer**, not a claim that every repository is part of one product or institution. The canonical technical architecture and evidence status remain authoritative in WANGA-LAB.
+This map separates the public research core from infrastructure, external/upstream source work, governance research history, and experimental archives.
 
-## 1. Public research identity
+## 1. Core research and systems
 
-| Repository | Role | Status |
+| Repository | Role | Classification |
 |---|---|---|
-| [AmbassadorOv](https://github.com/AmbassadorOv/AmbassadorOv) | Public research index and identity/archive | PUBLIC RESEARCH ARCHIVE |
+| WANGA-LAB | Canonical systems architecture, evidence/provenance, drift forensics and verification | BUILT / TESTED |
+| AI231.meta.io | AI²³¹, computational language and reasoning research surface | SPECIFIED / RESEARCH |
+| -logicl-neural-order | Logic / neural-order research | RESEARCH |
+| Nanomathematics | Mathematical research archive | RESEARCH |
+| MNM | Mathematical / conceptual research archive | RESEARCH |
 
-**AmbassadorOv is a research identity/archive. It is not a diplomatic or governmental status.**
+## 2. Operational infrastructure and research tooling
 
-## 2. WANGA-LAB core / research-program inputs
-
-| Repository | Architectural placement | Status |
+| Repository | Role | Classification |
 |---|---|---|
-| [WANGA-LAB](https://github.com/AmbassadorOv/WANGA-LAB) | Canonical systems architecture, evidence/provenance, drift forensics, verification | BUILT / TESTED |
-| [AI231.meta.io](https://github.com/AmbassadorOv/AI231.meta.io) | AI²³¹ / formal-language research surface | SPECIFIED / RESEARCH |
-| [-logicl-neural-order](https://github.com/AmbassadorOv/-logicl-neural-order) | Logic / neural-order research input | RESEARCH INPUT |
-| [Nanomathematics](https://github.com/AmbassadorOv/Nanomathematics) | Mathematical research archive/input | RESEARCH INPUT |
-| [MNM](https://github.com/AmbassadorOv/MNM) | Mathematical/conceptual archive | RESEARCH INPUT |
-| [Qualia](https://github.com/AmbassadorOv/Qualia) | Conceptual research archive | RESEARCH INPUT |
-| [multi-agent-orchestator](https://github.com/AmbassadorOv/multi-agent-orchestator) | External/reference orchestration pattern | EXTERNAL / RESEARCH INPUT |
+| ai-agent-terraform | Deployment / infrastructure workspace | FORK / INFRASTRUCTURE |
+| multi-agent-orchestator | Multi-agent orchestration reference | FORK / EXTERNAL INPUT |
+| chatgpt-scientific-publications-extension | Scientific publication interface/reference | FORK / PUBLICATION TOOLING |
+| skills | Agent skill tooling | FORK / TOOLING |
+| python-genai | Provider SDK source workspace | FORK / UPSTREAM |
+| openai_tiktoken | Tokenization source workspace | FORK / UPSTREAM |
 
-These repositories should **not** be represented as independently verified components of WANGA-LAB merely because they are related to its research themes. Integration requires an explicit WANGA interface and evidence gate.
+These repositories can support WANGA, but they should not be presented as WANGA core unless their role is explicitly integrated and independently documented there.
 
-## 3. AI infrastructure / execution / publication
+## 3. Governance research program — source material
 
-| Repository | Role | Status |
+The following repositories belong in the governance research source layer, not in the operational WANGA core.
+
+| Repository | Role | Classification |
 |---|---|---|
-| [ai-agent-terraform](https://github.com/AmbassadorOv/ai-agent-terraform) | Deployment/infrastructure workspace | INFRASTRUCTURE |
-| [skills](https://github.com/AmbassadorOv/skills) | Agent skill/tooling infrastructure | INFRASTRUCTURE |
-| [chatgpt-scientific-publications-extension](https://github.com/AmbassadorOv/chatgpt-scientific-publications-extension) | Scientific publication interface/reference | PUBLICATION INFRASTRUCTURE |
-| [python-genai](https://github.com/AmbassadorOv/python-genai) | Provider SDK source/fork workspace | UPSTREAM / INFRASTRUCTURE |
-| [openai_tiktoken](https://github.com/AmbassadorOv/openai_tiktoken) | Tokenization source/dependency workspace | UPSTREAM / INFRASTRUCTURE |
+| World-Party-Federation-Branches-managers | Institutional/organizational research history | HISTORICAL |
+| think-thank-you-of-cyber-Department | Cyber/institutional governance concept archive | HISTORICAL |
+| TTTTproject-un.govt | International/institutional project archive | HISTORICAL |
+| TTTT-0.0.0.0.1 | Empty institutional project placeholder | ARCHIVE |
+| ARK-KERNEL-OVERSIGHT | Governance/oversight research surface | HISTORICAL |
+| vqbshtfsprojects.org | Institutional/project surface | HISTORICAL |
 
-## 4. Future Institute research-source layer
+### Institute boundary
 
-**Institute for Global Algorithmic Neuro-Governance — PLANNED / CONCEPTUAL**
+**Institute for Global Algorithmic Neuro-Governance = PLANNED / CONCEPTUAL.**
 
-The following repositories may serve as historical research material or future source material for a governance-research program. They are **not evidence that the Institute currently exists as a formal institution**:
+No current repository is relabeled as the Institute itself. These governance repositories are source material that may inform a future research program; they are not evidence of an existing governmental, diplomatic, regulatory or institutional body.
 
-| Repository | Role | Status |
-|---|---|---|
-| [World-Party-Federation-Branches-managers](https://github.com/AmbassadorOv/World-Party-Federation-Branches-managers) | Organizational/institutional research history | HISTORICAL SOURCE |
-| [think-thank-you-of-cyber-Department](https://github.com/AmbassadorOv/think-thank-you-of-cyber-Department) | Cyber/institutional concept archive | HISTORICAL SOURCE |
-| [TTTTproject-un.govt](https://github.com/AmbassadorOv/TTTTproject-un.govt) | International/institutional project archive | HISTORICAL SOURCE |
-| [TTTT-0.0.0.0.1](https://github.com/AmbassadorOv/TTTT-0.0.0.0.1) | Institutional project archive | HISTORICAL SOURCE |
-| [ARK-KERNEL-OVERSIGHT](https://github.com/AmbassadorOv/ARK-KERNEL-OVERSIGHT) | ARK governance/oversight research | HISTORICAL SOURCE |
+## 4. Conceptual / historical archive
 
-**Rule:** historical governance material is not promoted into the Institute framework until its provenance, purpose, and relationship to the proposed research program are explicitly documented.
+Qualia, O-Ms, -, -artificial-y, test-notebook-links, stunning-octo-garbanzo, glowing-octo-waddle, fluffy-parakeet, -from-Corsican-, and branches- remain historical or experimental surfaces rather than current core.
 
-## 5. Historical / experimental archive
+## 5. Upstream / vendor / large source mirrors
 
-- [-from-Corsican-](https://github.com/AmbassadorOv/-from-Corsican-)
-- [fluffy-parakeet](https://github.com/AmbassadorOv/fluffy-parakeet)
-- [branches-](https://github.com/AmbassadorOv/branches-)
-- [stunning-octo-garbanzo](https://github.com/AmbassadorOv/stunning-octo-garbanzo)
-- [glowing-octo-waddle](https://github.com/AmbassadorOv/glowing-octo-waddle)
-- [O-Ms](https://github.com/AmbassadorOv/O-Ms)
-- [-](https://github.com/AmbassadorOv/-)
-- [-artificial-y](https://github.com/AmbassadorOv/-artificial-y)
-- [test-notebook-links](https://github.com/AmbassadorOv/test-notebook-links)
-- [GOOGLE_API_KEY](https://github.com/AmbassadorOv/GOOGLE_API_KEY)
+googleapis, docs, mermaid, globalSpeed, vscode-azure-blockchain-ethereum, eslint, generative-ai-docs, vscode-docs, mujoco, mediapipe, desktop, platform-samples, extensions, cookbook, unetbootin, and awesome-chatgpt-prompts are treated as upstream/vendor/source workspaces unless a separate repository-level record establishes original work.
 
-These remain historical sources and should not appear as current achievements on the public profile without a specific research rationale.
+They should not occupy the public research-core area of the profile.
 
-## 6. Upstream / vendor / mirror workspaces
+## 6. Security / hygiene note
 
-These repositories should not be presented as original research simply because they exist under the account:
+GOOGLE_API_KEY remains outside the research core and should be treated as a security-sensitive historical repository. It should not be advertised as research.
 
-- [googleapis](https://github.com/AmbassadorOv/googleapis)
-- [docs](https://github.com/AmbassadorOv/docs)
-- [mermaid](https://github.com/AmbassadorOv/mermaid)
-- [globalSpeed](https://github.com/AmbassadorOv/globalSpeed)
-- [vscode-azure-blockchain-ethereum](https://github.com/AmbassadorOv/vscode-azure-blockchain-ethereum)
-- [eslint](https://github.com/AmbassadorOv/eslint)
-- [generative-ai-docs](https://github.com/AmbassadorOv/generative-ai-docs)
-- [vscode-docs](https://github.com/AmbassadorOv/vscode-docs)
-- [mujoco](https://github.com/AmbassadorOv/mujoco)
-- [mediapipe](https://github.com/AmbassadorOv/mediapipe)
-- [desktop](https://github.com/AmbassadorOv/desktop)
-- [platform-samples](https://github.com/AmbassadorOv/platform-samples)
-- [extensions](https://github.com/AmbassadorOv/extensions)
-- [cookbook](https://github.com/AmbassadorOv/cookbook)
-- [unetbootin](https://github.com/AmbassadorOv/unetbootin)
-- [awesome-chatgpt-prompts](https://github.com/AmbassadorOv/awesome-chatgpt-prompts)
+## Profile rule
 
-## 7. Profile rule
+Person → Research identity/archive → Core research → WANGA systems → Research tooling → Governance research sources → Historical archive → Upstream/vendor.
 
-The public profile highlights:
+The profile must not imply that a fork is original research, that a conceptual institute already exists, or that historical institutional material is current institutional authority.
 
-**Person → AmbassadorOv research archive → Programs → Canonical repositories → Research inputs → Historical sources**
-
-It does not flatten all account repositories into one portfolio.
-
-The governing rule is:
-
-**One responsibility → one canonical owner → explicit interface → evidence status → verification gate.**
+Repository-level READMEs and WANGA-LAB evidence records remain authoritative for implementation and verification status.
