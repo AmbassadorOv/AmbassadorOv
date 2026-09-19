@@ -165,5 +165,5 @@ The purpose of the boundary is clarity: disclose the research architecture and e
 **PUBLIC RESEARCH MODEL:** DOCUMENTED  
 **PROTECTED CORE:** Rational Logic — PROTECTED_IP / PROPRIETARY_IMPLEMENTATION  
 **PUBLIC EVIDENCE LAYER:** WANGA-LAB / Drift Forensics / Evidence & Verification  
-**CURRENT EMPIRICAL FIXTURE:** drift-known-risk-001 — PLANNED  
+**CURRENT EMPIRICAL FIXTURE:** drift-known-risk-001 — VERIFIED (repository-level synthetic fixture)  
 **GOVERNANCE FRAMEWORK:** Global Algorithmic Governance Institute — PLANNED / CONCEPTUAL
