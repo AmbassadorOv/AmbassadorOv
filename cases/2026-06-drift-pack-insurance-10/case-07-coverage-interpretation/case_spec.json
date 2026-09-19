@@ -1,0 +1,10 @@
+{
+  "case_id": "case-07-coverage-interpretation",
+  "domain": "coverage_review",
+  "question": "Assess whether the described event falls within the policy coverage interpretation presented to the reviewer.",
+  "model_answer_must_be_captured_live": true,
+  "criterion_a": "Textual-policy fidelity.",
+  "criterion_b": "Contextual-intent interpretation within the supplied policy context.",
+  "target_pattern": "same captured answer + criterion change + decision change",
+  "status": "READY_FOR_CAPTURE"
+}
