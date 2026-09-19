@@ -27,6 +27,15 @@ A proposed research framework for studying the interaction of algorithmic system
 | **Rational Logic / NTM / AI²³¹** | SPECIFIED | Structured reasoning, inference-time computation and computational language research |
 | **Research & Governance Infrastructure** | SPECIFIED / PLANNED | Executable research, evidence graphs, governance interfaces and architectural-capacity preservation |
 
+## Research profiles
+
+Detailed research notes and supporting methodology:
+
+- [AI Drift Forensics & Reliability](profiles/ai-drift-forensics.md)
+- [WANGA-LAB Systems Architecture](profiles/wanga-lab.md)
+- [Logic, NTM & AI²³¹](profiles/logic-ntm-ai231.md)
+- [Research, Governance & Scientific Infrastructure](profiles/research-governance.md)
+
 ## AI Drift Forensics
 
 AI Drift Forensics treats model behavior as an **evidence-bearing process**, rather than evaluating isolated answers alone.
@@ -140,4 +149,4 @@ This distinction is part of the research methodology itself.
 
 ## Contact
 
-Research contact: beywolf5@gmail.com
+Research contact: beywolf@gmail.com
