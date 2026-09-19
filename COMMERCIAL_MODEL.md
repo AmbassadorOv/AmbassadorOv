@@ -112,6 +112,22 @@ WANGA documentation distinguishes between:
 
 A commercial capability must not be represented as VERIFIED unless the corresponding implementation and verification evidence exists.
 
+## Reference Price Framework
+
+The following figures are **reference commercial prices**, not guaranteed market prices or binding quotations. Final pricing is established by contract and deployment scope.
+
+| Package | Reference Price | Included Basis |
+|---|---:|---|
+| WANGA LAB | $2,000 | Research / limited single-project deployment |
+| WANGA STARTUP | $15,000 / year | Startup deployment with defined model/API scope |
+| WANGA FINANCIAL | $50,000 / year + $5,000 / additional model | Financial AI verification configuration; subject to model and deployment definition |
+| WANGA INSURANCE | $50,000 / year + $5,000 / additional model | Insurance AI drift / verification configuration; subject to model and deployment definition |
+| WANGA ENTERPRISE | $150,000+ / year | Enterprise deployment; final scope and integrations negotiated |
+| WANGA GOVERNANCE | Custom | Institutional-scale deployment |
+| WANGA GLOBAL | Custom | Strategic / multi-region infrastructure deployment |
+
+These reference prices are deliberately separated from the protected technical implementation and do not grant ownership of WANGA intellectual property.
+
 ## Institutional Commercialization
 
 The intended long-term commercialization structure is for WANGA licensing and related institutional revenues to operate through an appropriate institutional entity, subject to formal legal establishment, ownership, and IP-assignment arrangements.
