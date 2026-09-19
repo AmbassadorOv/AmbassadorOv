@@ -41,18 +41,18 @@ jobs:
           } > evidence/rfc3161-commercial-model/anchor-metadata.txt
 
           curl -fsSL -o evidence/rfc3161-commercial-model/cacert.pem https://freetsa.org/files/cacert.pem
-          curl -fsSL -o evidence/rfc3161-commercial-model/tsacert.crt https://freetsa.org/files/tsacert.crt
+          curl -fsSL -o evidence/rfc3161-commercial-model/tsa.crt https://freetsa.org/files/tsa.crt
 
           openssl ts -query -data "$MODEL" -sha256 -cert -out evidence/rfc3161-commercial-model/commercial-model.tsq
-          curl -fsS             -H "Content-Type: application/timestamp-query"             --data-binary @evidence/rfc3161-commercial-model/commercial-model.tsq             https://freetsa.org/tsr             -o evidence/rfc3161-commercial-model/commercial-model.tsr
+          curl -fsS -H "Content-Type: application/timestamp-query" --data-binary @evidence/rfc3161-commercial-model/commercial-model.tsq https://freetsa.org/tsr -o evidence/rfc3161-commercial-model/commercial-model.tsr
 
-          openssl ts -reply             -in evidence/rfc3161-commercial-model/commercial-model.tsr             -text             -token_out             > evidence/rfc3161-commercial-model/timestamp.txt
+          openssl ts -reply -in evidence/rfc3161-commercial-model/commercial-model.tsr -text -token_out > evidence/rfc3161-commercial-model/timestamp.txt
 
-          openssl ts -verify             -data "$MODEL"             -in evidence/rfc3161-commercial-model/commercial-model.tsr             -CAfile evidence/rfc3161-commercial-model/cacert.pem             -untrusted evidence/rfc3161-commercial-model/tsacert.crt
+          openssl ts -verify -in evidence/rfc3161-commercial-model/commercial-model.tsr -queryfile evidence/rfc3161-commercial-model/commercial-model.tsq -CAfile evidence/rfc3161-commercial-model/cacert.pem -untrusted evidence/rfc3161-commercial-model/tsa.crt
 
-          grep -E "Time stamp:|Policy OID:|Hash Algorithm:" evidence/rfc3161-commercial-model/timestamp.txt             > evidence/rfc3161-commercial-model/timestamp-summary.txt || true
+          grep -E "Time stamp:|Policy OID:|Hash Algorithm:" evidence/rfc3161-commercial-model/timestamp.txt > evidence/rfc3161-commercial-model/timestamp-summary.txt || true
 
-          rm -f evidence/rfc3161-commercial-model/cacert.pem evidence/rfc3161-commercial-model/tsacert.crt
+          rm -f evidence/rfc3161-commercial-model/cacert.pem evidence/rfc3161-commercial-model/tsa.crt
 
       - name: Upload RFC3161 evidence
         uses: actions/upload-artifact@v4
