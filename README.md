@@ -151,7 +151,7 @@ Governance and institutional repositories are retained as historical/conceptual 
 **Upstream / vendor / experimental**  
 Forks, mirrors, dependencies, imported projects, and historical experiments remain attributable but are not presented as original research.
 
-See the [Repository Ecosystem Map](REPOSITORY_ECOSYSTEM.md).
+See the [Repository Ecosystem Map](REPOSITORY_ECOSYSTEM.md) for the complete classification of the account's repositories, including canonical WANGA components, AI²³¹/logic research inputs, infrastructure, governance-source archives, publication tooling, and imported/upstream projects.
 
 ## Selected repositories
 
