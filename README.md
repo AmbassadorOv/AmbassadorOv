@@ -52,6 +52,7 @@ A proposed computational architecture integrating **computation, reasoning, evid
 - **[WANGA-LAB — Computational & Evidence Engine](https://github.com/AmbassadorOv/WANGA-LAB)**
 - **[Global Architecture Computing / Vitruvius](https://github.com/AmbassadorOv/WANGA-LAB/tree/main/vitruvius-scanner)**
 - **[AI²³¹ — Research Gateway](https://github.com/AmbassadorOv/AI231.meta.io)**
+- **[Global Government & Neural Architecture Family Index](GLOBAL_GOVERNMENT_NEURAL_ARCHITECTURE_INDEX.md)**
 - **[Research Lineage](RESEARCH_LINEAGE.md)**
 - **[Repository Ecosystem](REPOSITORY_ECOSYSTEM.md)**
 
@@ -94,7 +95,7 @@ Available collaboration models include:
 
 Independent research and systems architecture focused on **global architecture computing, AI reliability, AI drift forensics, evidence infrastructure, logical reasoning, computational research, and governance interfaces**.
 
-**Research navigation:** [WANGA Global Computational Architecture](https://github.com/AmbassadorOv/WANGA-LAB/blob/main/docs/WANGA_GLOBAL_COMPUTATIONAL_ARCHITECTURE.md) · [Protected Core → Independent Evidence Infrastructure](research/PROTECTED_CORE_AND_EVIDENCE_INFRASTRUCTURE.md) · [Rational Logic — Protected IP Boundary](research/RATIONAL_LOGIC_IP_BOUNDARY.md) · [Verified Drift Case](https://github.com/AmbassadorOv/WANGA-LAB/tree/main/artifacts/drift-known-risk-001) · [Research Lineage](RESEARCH_LINEAGE.md) · [Repository Ecosystem](REPOSITORY_ECOSYSTEM.md)
+**Research navigation:** [WANGA Global Computational Architecture](https://github.com/AmbassadorOv/WANGA-LAB/blob/main/docs/WANGA_GLOBAL_COMPUTATIONAL_ARCHITECTURE.md) · [Global Government & Neural Architecture Family Index](GLOBAL_GOVERNMENT_NEURAL_ARCHITECTURE_INDEX.md) · [Protected Core → Independent Evidence Infrastructure](research/PROTECTED_CORE_AND_EVIDENCE_INFRASTRUCTURE.md) · [Rational Logic — Protected IP Boundary](research/RATIONAL_LOGIC_IP_BOUNDARY.md) · [Verified Drift Case](https://github.com/AmbassadorOv/WANGA-LAB/tree/main/artifacts/drift-known-risk-001) · [Research Lineage](RESEARCH_LINEAGE.md) · [Repository Ecosystem](REPOSITORY_ECOSYSTEM.md)
 
 **Evidence status:** WANGA-LAB **BUILT / TESTED** · drift-known-risk-001 **VERIFIED (repository-level synthetic fixture)** · Rational Logic implementation **PROTECTED_IP** · Global Algorithmic Governance Institute **PLANNED / CONCEPTUAL**
 
