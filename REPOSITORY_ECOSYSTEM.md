@@ -64,7 +64,7 @@ Historical repositories in this group are source material, not proof of current 
 
 These repositories are not presented as original research merely because they are owned by the account:
 
-`googleapis`, `desktop`, `platform-samples`, `extensions`, `mermaid`, `vscode-azure-blockchain-ethereum`, `eslint`, `openai_tiktoken`, `generative-ai-docs`, `mujoco`, `cookbook`, `vscode-docs`, `mediapipe`, `python-genai`, `awesome-chatgpt-prompts`, `unetbootin`.
+`googleapis`, `desktop`, `platform-samples`, `extensions`, `mermaid`, `vscode-azure-blockchain-ethereum`, `eslint`, `openai_tiktoken`, `generative-ai-docs`, `mujoco`, `cookbook`, `vscode-docs`, `mediapipe`, `python-genai`, `awesome-chatgpt-prompts`, `unetbootin`, `globalSpeed`.
 
 Placement: **UPSTREAM / IMPORTED / REFERENCE**
 
