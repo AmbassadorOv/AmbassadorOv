@@ -1,3 +1,19 @@
+# WANGA Neural Algorithmic Governance Computer — Main Project
+
+**EN — MAIN PROJECT**  
+This is my **main project**: **WANGA — a proposed neural computer architecture for algorithmic governance**. The project brings computation, reasoning, evidence, verification, provenance, lineage, architecture intelligence and governance into one recursive computational architecture. **The detailed research programs, architecture layers, evidence boundaries and other projects are documented below.**
+
+**עברית — הפרויקט הראשי**  
+זהו **הפרויקט הראשי שלי**: **WANGA — ארכיטקטורה מוצעת למחשב נוירוני לממשל אלגוריתמי**. הפרויקט מחבר חישוב, חשיבה, ראיות, אימות, Provenance, שושלות, מודיעין ארכיטקטוני ומשילות בתוך ארכיטקטורה חישובית רקורסיבית אחת. **שאר פרטי המחקר, שכבות הארכיטקטורה, גבולות הראיות ושאר הפרויקטים נמצאים בהמשך הדף.**
+
+**中文 — 主要项目**  
+这是我的**主要项目**：**WANGA——面向算法治理的神经计算机架构提案**。该项目将计算、推理、证据、验证、来源追踪、谱系、架构智能与治理组织到一个递归计算架构中。**其余研究项目、架构层、证据边界及其他详细信息请见下方。**
+
+**한국어 — 주요 프로젝트**  
+이것은 제가 현재 구축하고 있는 **주요 프로젝트**입니다: **WANGA — 알고리즘 거버넌스를 위한 제안형 신경 컴퓨터 아키텍처**. 이 프로젝트는 계산, 추론, 증거, 검증, 출처·계보 추적, 아키텍처 인텔리전스와 거버넌스를 하나의 재귀적 계산 아키텍처로 통합합니다. **나머지 연구 프로그램, 아키텍처 계층, 증거 경계 및 기타 세부 내용은 아래에 정리되어 있습니다.**
+
+---
+
 # Eran Oved Awat — Research, Systems Architecture & AI Forensics
 
 Independent research and systems architecture focused on **global architecture computing, AI reliability, AI drift forensics, evidence infrastructure, logical reasoning, computational research, and governance interfaces**.
