@@ -198,6 +198,18 @@ The intended distinction is simple:
 - [chatgpt-scientific-publications-extension](https://github.com/AmbassadorOv/chatgpt-scientific-publications-extension)
 
 
+## Current research role — Global Architecture Computing / Vitruvius
+
+I design and implement the Vitruvius architecture-intelligence layer for WANGA: a research architecture that maps distributed software architectures into families and lineages, measures interfaces and dependencies, uses GPT/LLM/neural systems as model-assisted analysis instruments, and connects compatible structures through explicit adapters into the WANGA computational architecture.
+
+The current work includes an executable GitHub architecture-indexing layer, family taxonomy, architecture-book registry and scheduled refresh workflow. The research direction is to build an expanding architecture family tree and architecture book over GitHub, preserving provenance and verification boundaries while testing candidate architectural descendants.
+
+Core architecture:
+
+GitHub → Architecture Families → Lineages → Vitruvius → Politeia → Model/Neural Bridge → Translation → Rational Logic → Derivation → Drift Forensics → Verification → Evidence
+
+Current status: ACTIVE DEVELOPMENT / OBSERVATIONAL INDEX IMPLEMENTED. The public profile does not claim exhaustive GitHub coverage, a completed physical general-purpose computer, or a verified global architecture standard.
+
 ## Global Architecture Computing / Vitruvius
 
 A current research direction is the construction of a **Vitruvius-based global architecture map** that treats GitHub as a distributed computational architecture substrate. The system is designed to discover repositories and primary branches, extract architectural properties, organize them into families and lineages, map interfaces/dependencies/capabilities, and identify candidate connections into the WANGA architecture.
