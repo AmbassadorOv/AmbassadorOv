@@ -2,68 +2,92 @@
 
 Date: 2026-09-19
 
-This map separates the public research core from infrastructure, external/upstream source work, governance research history, and experimental archives.
+This map separates the public research core from infrastructure, external/reference code, conceptual archives, institutional-history material, and upstream/vendor work.
 
-## 1. Core research and systems
+## 1. Canonical research core
 
-| Repository | Role | Classification |
+| Repository | Placement | Evidence posture |
 |---|---|---|
-| WANGA-LAB | Canonical systems architecture, evidence/provenance, drift forensics and verification | BUILT / TESTED |
-| AI231.meta.io | AI²³¹, computational language and reasoning research surface | SPECIFIED / RESEARCH |
-| -logicl-neural-order | Logic / neural-order research | RESEARCH |
-| Nanomathematics | Mathematical research archive | RESEARCH |
-| MNM | Mathematical / conceptual research archive | RESEARCH |
+| WANGA-LAB | Systems architecture, evidence/provenance, drift forensics, verification and operational intake | BUILT / TESTED |
+| AI231.meta.io | AI²³¹ research surface; formal language / reasoning | SPECIFIED / RESEARCH |
+| -logicl-neural-order | Rational Logic / neural-order research source | RESEARCH / HISTORICAL SOURCE |
 
-## 2. Operational infrastructure and research tooling
+Only these repositories are currently treated as the public technical/research core. The profile archive itself is an index, not a research implementation.
 
-| Repository | Role | Classification |
+## 2. WANGA implementation / infrastructure
+
+| Repository | Placement | Evidence posture |
 |---|---|---|
-| ai-agent-terraform | Deployment / infrastructure workspace | FORK / INFRASTRUCTURE |
-| multi-agent-orchestator | Multi-agent orchestration reference | FORK / EXTERNAL INPUT |
-| chatgpt-scientific-publications-extension | Scientific publication interface/reference | FORK / PUBLICATION TOOLING |
-| skills | Agent skill tooling | FORK / TOOLING |
-| python-genai | Provider SDK source workspace | FORK / UPSTREAM |
-| openai_tiktoken | Tokenization source workspace | FORK / UPSTREAM |
+| ai-agent-terraform | Deployment / Terraform / runtime infrastructure | INFRASTRUCTURE |
+| skills | Agent-skill CLI/tooling workspace | TOOLING / UPSTREAM-DERIVED |
+| chatgpt-scientific-publications-extension | Scientific-publication interface/reference | PUBLICATION INFRASTRUCTURE |
+| python-genai | Provider SDK fork/source workspace | UPSTREAM / INFRASTRUCTURE |
+| openai_tiktoken | Tokenization dependency/source workspace | UPSTREAM / INFRASTRUCTURE |
 
-These repositories can support WANGA, but they should not be presented as WANGA core unless their role is explicitly integrated and independently documented there.
+These support the architecture but are not independently presented as original research findings.
 
-## 3. Governance research program — source material
+## 3. Reasoning / agent reference material
 
-The following repositories belong in the governance research source layer, not in the operational WANGA core.
+| Repository | Placement | Evidence posture |
+|---|---|---|
+| multi-agent-orchestator | Multi-agent orchestration reference implementation | REFERENCE / EXTERNAL-DERIVED |
 
-| Repository | Role | Classification |
+Its README identifies the original project source as sachi097/multi-agent-orchestator. It should therefore not be presented as original AmbassadorOv research.
+
+## 4. Mathematical / conceptual research archive
+
+| Repository | Placement | Evidence posture |
+|---|---|---|
+| Nanomathematics | Mathematical research archive | CONCEPTUAL / ARCHIVE |
+| MNM | Mathematical / conceptual archive | CONCEPTUAL / ARCHIVE |
+| Qualia | Conceptual research archive | CONCEPTUAL / ARCHIVE |
+
+These remain discoverable research-history surfaces. Their current public metadata does not justify promoting them to the same implementation status as WANGA-LAB.
+
+## 5. Governance / institutional research history
+
+| Repository | Placement | Evidence posture |
 |---|---|---|
 | World-Party-Federation-Branches-managers | Institutional/organizational research history | HISTORICAL |
-| think-thank-you-of-cyber-Department | Cyber/institutional governance concept archive | HISTORICAL |
+| think-thank-you-of-cyber-Department | Cyber/institutional concept archive | HISTORICAL |
 | TTTTproject-un.govt | International/institutional project archive | HISTORICAL |
-| TTTT-0.0.0.0.1 | Empty institutional project placeholder | ARCHIVE |
-| ARK-KERNEL-OVERSIGHT | Governance/oversight research surface | HISTORICAL |
+| TTTT-0.0.0.0.1 | Institutional project surface | ARCHIVE |
+| ARK-KERNEL-OVERSIGHT | ARK oversight research surface | HISTORICAL |
 | vqbshtfsprojects.org | Institutional/project surface | HISTORICAL |
+| https-AmbassadorOv.io | Public-site surface | PUBLICATION / IDENTITY |
 
-### Institute boundary
+None of these repositories is the Institute for Global Algorithmic Neuro-Governance. They are source/history surfaces only.
 
-**Institute for Global Algorithmic Neuro-Governance = PLANNED / CONCEPTUAL.**
+## 6. Upstream, mirrors, dependencies and unrelated work
 
-No current repository is relabeled as the Institute itself. These governance repositories are source material that may inform a future research program; they are not evidence of an existing governmental, diplomatic, regulatory or institutional body.
+Repositories such as googleapis, docs, mermaid, globalSpeed, vscode-* repositories, eslint, generative-ai-docs, desktop, platform-samples, extensions, cookbook, unetbootin, awesome-chatgpt-prompts, and similar upstream/source workspaces remain outside the public research core.
 
-## 4. Conceptual / historical archive
+## 7. Historical experiment archive
 
-Qualia, O-Ms, -, -artificial-y, test-notebook-links, stunning-octo-garbanzo, glowing-octo-waddle, fluffy-parakeet, -from-Corsican-, and branches- remain historical or experimental surfaces rather than current core.
+Legacy repositories with opaque/generated names, test workspaces, old branches, and exploratory prototypes remain preserved for provenance. They should not be surfaced as current programs unless a later evidence review promotes them.
 
-## 5. Upstream / vendor / large source mirrors
+## 8. Institute placement
 
-googleapis, docs, mermaid, globalSpeed, vscode-azure-blockchain-ethereum, eslint, generative-ai-docs, vscode-docs, mujoco, mediapipe, desktop, platform-samples, extensions, cookbook, unetbootin, and awesome-chatgpt-prompts are treated as upstream/vendor/source workspaces unless a separate repository-level record establishes original work.
+**Institute for Global Algorithmic Neuro-Governance — PLANNED / CONCEPTUAL**
 
-They should not occupy the public research-core area of the profile.
+There is currently no repository in this account that should be represented as the Institute itself.
 
-## 6. Security / hygiene note
+Correct relationship:
 
-GOOGLE_API_KEY remains outside the research core and should be treated as a security-sensitive historical repository. It should not be advertised as research.
+**Eran Oved Awat → AmbassadorOv research archive → Institute framework (PLANNED) → research programs / standards / governance interfaces**
 
-## Profile rule
+The Institute should receive a repository only after a deliberate institutional specification and governance boundary exists. Existing historical governance repositories should not be retroactively presented as the Institute.
 
-Person → Research identity/archive → Core research → WANGA systems → Research tooling → Governance research sources → Historical archive → Upstream/vendor.
+## 9. Canonical architecture
 
-The profile must not imply that a fork is original research, that a conceptual institute already exists, or that historical institutional material is current institutional authority.
+**WANGA OS → Global Work Manager → Model Fabric → Digital Model Agents → Providers/Runtimes → Evidence & Provenance → Drift Forensics → Verification → Human Gate → Research / Publication**
 
-Repository-level READMEs and WANGA-LAB evidence records remain authoritative for implementation and verification status.
+Repository placement follows responsibility, not naming.
+
+## 10. Evidence rule
+
+**BUILT · SPECIFIED · PROTOTYPED · TESTED · VERIFIED · PLANNED · HYPOTHETICAL**
+
+A repository being public, active, large, or technically interesting does not by itself establish research verification.
+
+This map is a navigation layer. Repository-level implementation and evidence records remain authoritative in WANGA-LAB.
