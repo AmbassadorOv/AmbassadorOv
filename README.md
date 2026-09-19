@@ -199,6 +199,39 @@ The intended distinction is simple:
 - [chatgpt-scientific-publications-extension](https://github.com/AmbassadorOv/chatgpt-scientific-publications-extension)
 
 
+## Proof of Concept — WANGA Virtual Computer
+
+**Proof of Concept: BUILT / TESTED / VERIFIED at the virtual-architecture level**
+
+The current WANGA implementation includes a working **virtual computer architecture proof of concept**. It is not a claim that a physical WANGA machine has already been built. The POC demonstrates that the proposed architecture can be represented, executed and validated as a machine-traversable computational graph.
+
+The virtual machine is organized as layered computational surfaces:
+
+**External Substrate → Ingress → Vitruvius → Atomic Architecture Graph → Neural Endpoints → Evidence & Provenance → Rational Logic Boundary → Politeia Governance → AMNE Runtime (proposed) → Physical Target (future)**
+
+The POC supports:
+
+- recursive architectural decomposition;
+- multi-family **Family Atoms**;
+- cross-family architectural bridges;
+- deterministic neural endpoints;
+- provenance and evidence-state tracking;
+- explicit verification states;
+- graph-level integrity and invariant tests;
+- integration with the global GitHub architecture network.
+
+The important result is that the architecture is no longer only a written specification: a **virtualized execution model and validation workflow exist and run through GitHub Actions**.
+
+The current verification boundary is explicit. The POC verifies the **logical virtualization architecture and its graph invariants**. It does not yet verify physical hardware, quantum integration, a production AMNE runtime, or a 10 ms physical heartbeat.
+
+The POC is therefore the current bridge between the architectural proposal and a future computational implementation:
+
+**Architecture Specification → Virtual Computer POC → Executable Graph → Automated Verification → Future Physical / Persistent Computational Substrate**
+
+Repository implementation: [WANGA-LAB](https://github.com/AmbassadorOv/WANGA-LAB)
+
+Current status: **VIRTUAL COMPUTER POC — VERIFIED / ACTIVE DEVELOPMENT**
+
 ## Current project — WANGA Neural Algorithmic Governance Computer
 
 **This is the project I am currently building.**
