@@ -1,0 +1,5 @@
+repository=AmbassadorOv/AmbassadorOv
+commit=604801bb4ccb146967da77a9ddb459e28d8ea37f
+file=COMMERCIAL_MODEL.md
+sha256=8339638cc685effbeb26d7e1a478f4768712e23e5c6b3064002770fa2c25f280
+timestamp_request_utc=2026-09-19T19:14:36Z

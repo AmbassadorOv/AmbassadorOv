@@ -1,0 +1,13 @@
+Version: 1
+Policy OID: tsa_policy1
+Hash Algorithm: sha256
+Message data:
+    0000 - 83 39 63 8c c6 85 ef fb-eb 26 d7 e1 a4 78 f4 76   .9c......&...x.v
+    0010 - 87 12 e2 3e 5c 6b 30 64-00 27 70 fa 2c 25 f2 80   ...>\k0d.'p.,%..
+Serial number: 0x084045BF
+Time stamp: Sep 19 19:14:36 2026 GMT
+Accuracy: unspecified
+Ordering: yes
+Nonce: 0x1AB7C8ABFE5D9E50
+TSA: DirName:/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern
+Extensions:
