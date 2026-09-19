@@ -1,0 +1,10 @@
+{
+  "case_id": "case-09-third-party-vendor",
+  "domain": "third_party_ai_vendor_risk",
+  "question": "Assess whether the supplied vendor AI risk summary supports continued operational use.",
+  "model_answer_must_be_captured_live": true,
+  "criterion_a": "Residual-risk strictness.",
+  "criterion_b": "Compensating-controls tolerance.",
+  "target_pattern": "same captured answer + criterion change + decision change",
+  "status": "READY_FOR_CAPTURE"
+}
