@@ -197,6 +197,19 @@ The intended distinction is simple:
 - [ai-agent-terraform](https://github.com/AmbassadorOv/ai-agent-terraform)
 - [chatgpt-scientific-publications-extension](https://github.com/AmbassadorOv/chatgpt-scientific-publications-extension)
 
+
+## Global Architecture Computing / Vitruvius
+
+A current research direction is the construction of a **Vitruvius-based global architecture map** that treats GitHub as a distributed computational architecture substrate. The system is designed to discover repositories and primary branches, extract architectural properties, organize them into families and lineages, map interfaces/dependencies/capabilities, and identify candidate connections into the WANGA architecture.
+
+The architecture connects **Vitruvius Architecture Intelligence → Lineage Knowledge → WANGA Politeia → Model/GPT/Neural Model Bridge → Translation Architecture → Rational Logic → Derivation → Drift Forensics / Verification → Evidence / Provenance**.
+
+GPT/LLM and neural systems are used as model-assisted instruments for architecture extraction, classification, relationship mapping, comparison and candidate composition. Their outputs remain observations or candidates until independently checked through the architecture's evidence and verification process.
+
+The long-term research objective is an expanding **architecture family tree / architecture book** in which external repositories remain independently sourced, architectural relationships are provenance-traceable, compatible structures can be composed through explicit adapters, and verified descendants can become new lineage records.
+
+Current implementation status: **ARCHITECTURE SPECIFICATION / ACTIVE DEVELOPMENT**. This does not claim that all of GitHub has already been exhaustively indexed or that a physical general-purpose computer has been completed.
+
 ## Contact
 
 Research contact: beywolf@gmail.com
