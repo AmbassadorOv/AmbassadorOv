@@ -1,0 +1,1 @@
+# Bridge Registry\n\n| Source | Target | Function | Authority |\n|---|---|---|---|\n| WANGA Main | Vitruvius Dual-Engine | architecture manifests/evidence | none |\n| Vitruvius Dual-Engine | WANGA Main | architecture graph/dependencies/evidence gaps | none |\n| WANGA Verification | Integration | verified gate | controlled by WANGA |\n\nStatus: SPECIFIED.\n
