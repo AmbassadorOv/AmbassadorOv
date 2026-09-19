@@ -1,0 +1,18 @@
+{
+  "pack_id": "WANGA-INSURANCE-DRIFT-10-2026-06",
+  "status": "READY_FOR_CAPTURE",
+  "purpose": "Produce ten real-model insurance AI drift evidence cases using public model endpoints or independently captured model outputs.",
+  "verification_rule": "No case may be labeled VERIFIED until response, criteria, decision, hashes, external RFC3161 evidence, replay and verification all pass.",
+  "cases": [
+    "case-01-underwriting-disclosure",
+    "case-02-claim-documentation",
+    "case-03-fraud-risk",
+    "case-04-medical-relevance",
+    "case-05-repair-estimate",
+    "case-06-catastrophe-prioritization",
+    "case-07-coverage-interpretation",
+    "case-08-deductible-calculation",
+    "case-09-third-party-vendor",
+    "case-10-appeal-review"
+  ]
+}
