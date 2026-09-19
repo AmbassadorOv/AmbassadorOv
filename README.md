@@ -130,7 +130,7 @@ These are research and service domains, not claims of regulatory authority, insu
 
 ## Research lineage
 
-The 46-repository account corpus is not treated as a single undifferentiated body of original work. The public index separates canonical research repositories, supporting infrastructure, governance lineage, external forks, and historical/low-evidence repositories. See the [Research Lineage & Repository Corpus Map](docs/RESEARCH_LINEAGE_AND_REPOSITORY_MAP.md).
+The 46-repository account corpus is not treated as a single undifferentiated body of original work. The public index separates canonical research repositories, supporting infrastructure, governance lineage, external forks, and historical/low-evidence repositories. See the [Research Lineage & Repository Corpus Map](RESEARCH_LINEAGE.md).
 
 ## Historical record
 
