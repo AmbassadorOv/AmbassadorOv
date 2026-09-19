@@ -1,10 +1,24 @@
 # Eran Oved Awat — Research, Systems Architecture & AI Forensics
 
-Independent research and systems architecture focused on **AI reliability, AI drift forensics, evidence infrastructure, logical reasoning, and governance interfaces**.
+Independent research and systems architecture focused on **AI reliability, AI drift forensics, evidence infrastructure, logical reasoning, computational research, and governance interfaces**.
 
-**Research navigation:** [Rational Logic — Protected IP Boundary](research/RATIONAL_LOGIC_IP_BOUNDARY.md) · [Research Lineage](RESEARCH_LINEAGE.md) · [Repository Ecosystem](REPOSITORY_ECOSYSTEM.md)
+**Research navigation:** [Protected Core → Independent Evidence Infrastructure](research/PROTECTED_CORE_AND_EVIDENCE_INFRASTRUCTURE.md) · [Rational Logic — Protected IP Boundary](research/RATIONAL_LOGIC_IP_BOUNDARY.md) · [Research Lineage](RESEARCH_LINEAGE.md) · [Repository Ecosystem](REPOSITORY_ECOSYSTEM.md)
 
-This profile is the public research index for work spanning technical architecture, executable research, model-behavior analysis, and evidence-preserving evaluation.
+This profile is the public research index for a longitudinal corpus spanning technical architecture, model-behavior analysis, evidence-preserving evaluation, logical research, and governance-oriented systems research.
+
+## The research model
+
+The public architecture is intentionally organized around a separation:
+
+**Protected Core → Independent Evidence Infrastructure → Reusable Research Derivatives → Governance Interface**
+
+The protected core is **Rational Logic**. Its implementation is intentionally not part of the public corpus.
+
+The public layer focuses on what can be documented, reproduced, inspected, and independently verified around AI behavior:
+
+**Evidence Protocol → Drift Artifact → Verification Chain → Governance Interface**
+
+This is not a claim that the protected implementation is uniquely unreproducible. It is an explicit separation between proprietary implementation and public research/evidence infrastructure.
 
 ## Research identity
 
@@ -18,149 +32,133 @@ AmbassadorOv represents the interface layer between research domains, computatio
 **Global Algorithmic Governance Institute**  
 **Status: PLANNED / CONCEPTUAL**
 
-A proposed research framework for studying the interaction of algorithmic systems, reasoning systems, evidence, institutions, and governance. It is not presented here as an existing governmental or formal regulatory institution.
+A proposed research framework for studying the interaction of algorithmic systems, reasoning systems, evidence, institutions, and governance. It is not presented here as an existing governmental, regulatory, or formally recognized institution.
 
 ## Research programs
 
-| Program | Status | Focus |
+| Program | Status | Role |
 |---|---|---|
-| **WANGA-LAB** | BUILT / TESTED | Systems architecture, evidence & provenance, deterministic verification |
-| **AI Drift Forensics** | SPECIFIED | Behavioral drift, criterion changes, reconstruction and verification |
-| **Rational Logic / NTM / AI²³¹** | SPECIFIED | Structured reasoning, inference-time computation and computational language research |
-| **Research & Governance Infrastructure** | SPECIFIED / PLANNED | Executable research, evidence graphs, governance interfaces and architectural-capacity preservation |
-
-## Research profiles
-
-Detailed research notes and supporting methodology:
-
-- [AI Drift Forensics & Reliability](profiles/ai-drift-forensics.md)
-- [WANGA-LAB Systems Architecture](profiles/wanga-lab.md)
-- [Logic, NTM & AI²³¹](profiles/logic-ntm-ai231.md)
-- [Research, Governance & Scientific Infrastructure](profiles/research-governance.md)
-- [Rational Logic — Protected IP Boundary](research/RATIONAL_LOGIC_IP_BOUNDARY.md)
+| **WANGA-LAB** | BUILT / TESTED | Systems architecture, evidence, provenance and verification |
+| **AI Drift Forensics** | SPECIFIED | Behavioral drift, reconstruction and verification |
+| **Rational Logic / NTM / AI²³¹** | SPECIFIED | Structured reasoning, inference-time research and computational language research |
+| **Research & Governance Infrastructure** | SPECIFIED / PLANNED | Executable research, evidence interfaces and governance-oriented architecture |
 
 ## AI Drift Forensics
 
-AI Drift Forensics treats model behavior as an **evidence-bearing process**, rather than evaluating isolated answers alone.
+AI Drift Forensics treats model behavior as an **evidence-bearing process**, not merely as a collection of isolated answers.
 
-Core chain:
+Core sequence:
 
-**Baseline → Observation → Drift Detection → Evidence Preservation → Reconstruction → Attribution → Risk Quantification → Intervention → Verification**
+**Baseline → Observation → Drift Detection → Evidence Preservation → Reconstruction → Causal / Dependency Analysis → Attribution → Risk Quantification → Intervention → Verification**
 
-Research distinguishes:
+The research distinguishes:
 
-- Point error
-- Definition drift
-- Premise drift
-- Inference drift
-- Criterion drift
-- Question-fidelity drift
-- Evidence/source-fidelity drift
-- Terminological instability
-- Response-trajectory drift
+**Point Error · Definition Drift · Premise Drift · Inference Drift · Criterion Drift · Question-Fidelity Drift · Evidence/Source-Fidelity Drift · Terminological Instability · Response-Trajectory Drift**
 
-A central research question is whether an apparent correction actually changes the underlying evaluation criterion.
+A central investigation is whether an apparent correction actually changes the underlying evaluation criterion:
 
 **Model → Answer → Evaluation → Correction → Criterion Change → Re-evaluation**
 
-## WANGA-LAB
+The public research objective is to make AI behavior **observable, reconstructable, and verifiable** without requiring the evaluated system to be owned or built by the evaluator.
 
-WANGA-LAB is the systems architecture and evidence-integrity layer supporting this research direction.
+## Evidence infrastructure
 
-Its architecture separates:
+The public evidence layer is intended to preserve the chain between an AI event and the claim made about that event.
 
-**WANGA OS → Global Work Manager → Model Fabric → Digital Model Agents → Providers/Runtimes → Evidence & Provenance → Drift Forensics & Verification → Rational Logic ↔ Neural Thinking Machine → Work Memory**
+A representative verification chain is:
 
-The architecture distinguishes planning from execution, preserves provenance, and keeps verification conceptually independent from the component being evaluated where practical.
+**Canonical Representation → SHA-256 Integrity → Timestamp Evidence → Deterministic Replay → Comparison → Verification Result**
 
-The WANGA-LAB repository contains implemented evidence-integrity components including canonical representations, SHA-256 integrity chains, RFC 3161 timestamping support, verification tests, and CI-based verification workflows. External anchoring is not described as verified until actual evidence/receipts are received and checked.
+The exact mechanisms used depend on the case. External timestamping or anchoring is not treated as complete until actual proof is received and checked.
+
+### Current empirical track
+
+**drift-known-risk-001**  
+Case reference: **CASE_REF_2026_DRIFT_KNOWN_RISK_001**  
+Current status: **PLANNED**
+
+The repository contains the case structure, evidence manifest, replay fixture and verification gates. It is not represented as a completed client investigation.
 
 ## Rational Logic, NTM & AI²³¹
 
-Research in this area explores:
+Rational Logic is a core research direction for structured reasoning, logical evaluation, constraint handling and verification around probabilistic systems.
 
-- Rational Logic as a structured reasoning and verification layer
-- Neural Thinking Machine (NTM) and inference-time reasoning
-- Tree-of-Thought / Graph-of-Thought style search
-- memory and re-evaluation mechanisms
-- neuro-symbolic verification
-- Python/Z3 constraint checking
-- AI²³¹ and formal relationships among symbolic structures, context, place and computation
+Its implementation is maintained outside the public corpus as **PROTECTED_IP / PROPRIETARY_IMPLEMENTATION**.
 
-These items are explicitly classified as **research specifications unless an implementation and verification record establishes otherwise**.
+Publicly documented research includes:
 
-The Rational Logic implementation itself is intentionally maintained outside the public research corpus as protected proprietary intellectual property. Its architectural role and public research boundary are documented separately in [Rational Logic — Protected IP Boundary](research/RATIONAL_LOGIC_IP_BOUNDARY.md).
+- the architectural role of Rational Logic;
+- its relationship to NTM and the broader WANGA architecture;
+- research specifications and testable questions;
+- public evidence and verification boundaries.
+
+See [Rational Logic — Protected IP Boundary](research/RATIONAL_LOGIC_IP_BOUNDARY.md).
+
+The NTM research explores inference-time reasoning, structured search, memory, re-evaluation and neuro-symbolic verification. AI²³¹ investigates formal relationships among symbolic structures, place/context and computation.
+
+These research areas remain classified by evidence status rather than being presented as verified implementations without corresponding evidence.
+
+## WANGA-LAB
+
+WANGA-LAB is the systems, evidence, drift and verification layer.
+
+Conceptually:
+
+**WANGA OS → Global Work Manager → Model Fabric → Digital Model Agents → Providers / Runtimes → Evidence & Provenance → Drift Forensics & Verification → Rational Logic ↔ Neural Thinking Machine → Work Memory**
+
+The public architecture separates planning from execution, preserves provenance, and keeps verification conceptually independent from the component being evaluated where practical.
+
+WANGA-LAB contains implemented evidence-integrity and verification components, including canonical representations, SHA-256 integrity chains, timestamp adapters, verification tests and CI workflows. Public documentation does not treat a mechanism as externally verified merely because code exists.
 
 ## Research method
 
-All work follows an explicit evidence-status vocabulary:
+All work uses an explicit evidence-status vocabulary:
 
 **BUILT · SPECIFIED · PROTOTYPED · TESTED · VERIFIED · PLANNED · HYPOTHETICAL**
 
-The governing rule is:
-
-> A specification is not presented as an implementation. A prototype is not presented as verified. A projection is not presented as a result.
-
-Research artifacts advance through a controlled gate:
+Maturation gate:
 
 **SPECIFIED → IMPLEMENTED / BUILT → TESTED → VERIFIED → PUBLISHED**
 
 No direct transition from **SPECIFIED** to **VERIFIED**.
 
-## Research maturation
+The governing rule is:
 
-Current research development follows:
-
-**Portfolio → Research Artifact → Experiment → Evidence → Technical Report → Paper**
-
-The next empirical track is designed around a reproducible drift case with preserved inputs/outputs, model and runtime metadata, canonical representation, cryptographic integrity, timestamp evidence, replay, comparison, verification result, and explicit limitations.
-
-The objective is not to add architecture for its own sake, but to establish a small number of **reproducible, verifiable, citable research artifacts**.
-
-## Research & Governance
-
-The research also examines how technical evidence can interface with institutions and risk-bearing organizations without collapsing distinct roles.
-
-Potential application domains include:
-
-- AI reliability evaluation
-- model behavior analysis
-- operational AI drift
-- evidence and provenance infrastructure
-- institutional risk analysis
-- insurance and financial-sector exposure to AI-dependent systems
-- public-sector and governance interfaces
-
-These are research and service domains, not claims of regulatory authority, insurance underwriting, certification, or governmental status.
+> A specification is not presented as an implementation. A prototype is not presented as verified. A projection is not presented as a result.
 
 ## Research lineage
 
-The 46-repository account corpus is not treated as a single undifferentiated body of original work. The public index separates canonical research repositories, supporting infrastructure, governance lineage, external forks, and historical/low-evidence repositories. See the [Research Lineage & Repository Corpus Map](RESEARCH_LINEAGE.md).
+The account is treated as a **46-repository longitudinal research corpus**, not as an undifferentiated list of original projects.
 
-## Historical record
+The public index separates:
 
-The broader research history is reconstructed from dated technical artifacts, repositories, correspondence, and other primary records. Where the available record does not establish a fact, it is left unasserted rather than inferred.
+**Historical Record → Research Domain → Artifact → Architecture Layer → Evidence Status → Canonical Owner**
 
-## Repository ecosystem
+See [Research Lineage & Repository Corpus Map](RESEARCH_LINEAGE.md) and [Repository Ecosystem Map](REPOSITORY_ECOSYSTEM.md).
 
-The GitHub account contains a broader repository history than the current research core. The profile therefore uses explicit architectural classification:
+Earlier periods that are not independently represented in GitHub remain marked for reconstruction from dated primary records rather than being asserted from inference.
 
-**Public research identity**  
-AmbassadorOv — research identity and public technical archive.
+## Research and governance applications
 
-**WANGA-LAB core and research inputs**  
-WANGA-LAB is the canonical systems/evidence layer. AI231.meta.io, -logicl-neural-order, Nanomathematics, MNM, Qualia, and selected orchestration research are treated as research inputs or archives until an explicit WANGA integration and verification record exists.
+The research can interface with organizations that need technical evidence concerning AI-dependent systems, including:
 
-**Infrastructure / publication**  
-ai-agent-terraform, skills, and publication tooling support execution or publication. They are not automatically research claims.
+**AI reliability evaluation · model behavior analysis · operational AI drift · evidence/provenance infrastructure · institutional risk analysis · insurance and financial-sector exposure to AI-dependent systems · public-sector governance interfaces**
 
-**Future Institute research-source layer**  
-Governance and institutional repositories are retained as historical/conceptual source material for the proposed **Global Algorithmic Governance Institute (PLANNED / CONCEPTUAL)**. They are not evidence that a formal institute currently exists.
+These are research and service domains. They are not claims of regulatory authority, insurance underwriting authority, certification, or governmental status.
 
-**Upstream / vendor / experimental**  
-Forks, mirrors, dependencies, imported projects, and historical experiments remain attributable but are not presented as original research.
+## Public / protected boundary
 
-See the [Repository Ecosystem Map](REPOSITORY_ECOSYSTEM.md) for the complete classification of the account's repositories, including canonical WANGA components, AI²³¹/logic research inputs, infrastructure, governance-source archives, publication tooling, and imported/upstream projects.
+The public corpus is designed to expose:
+
+**research lineage · architecture · methodology · evidence/provenance structures · forensic methods · verification interfaces · publishable research artifacts**
+
+The protected layer may retain:
+
+**implementation details · algorithms · mechanisms · proprietary technical material**
+
+The intended distinction is simple:
+
+**The public layer shows how AI behavior can be examined and evidenced. The protected layer does not need to be published for that evidence architecture to be documented.**
 
 ## Selected repositories
 
@@ -168,14 +166,6 @@ See the [Repository Ecosystem Map](REPOSITORY_ECOSYSTEM.md) for the complete cla
 - [AI231.meta.io](https://github.com/AmbassadorOv/AI231.meta.io)
 - [ai-agent-terraform](https://github.com/AmbassadorOv/ai-agent-terraform)
 - [chatgpt-scientific-publications-extension](https://github.com/AmbassadorOv/chatgpt-scientific-publications-extension)
-
-## Evidence and verification
-
-The public record intentionally distinguishes:
-
-**what exists → what has been tested → what has been independently verified → what remains planned**
-
-This distinction is part of the research methodology itself.
 
 ## Contact
 

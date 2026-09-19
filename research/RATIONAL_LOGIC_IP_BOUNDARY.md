@@ -1,5 +1,7 @@
 # Rational Logic — Research Architecture & Protected IP Boundary
 
+**Related public architecture:** [Protected Core → Independent Evidence Infrastructure → Research Derivatives](PROTECTED_CORE_AND_EVIDENCE_INFRASTRUCTURE.md)
+
 ## Purpose
 
 Rational Logic is a core research direction within the broader Eran Oved Awat research corpus. It concerns structured reasoning, explicit logical evaluation, verification, and the separation of reasoning criteria from the probabilistic behavior of a model.
