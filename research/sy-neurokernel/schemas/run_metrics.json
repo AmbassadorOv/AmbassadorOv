@@ -1,0 +1,8 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"SY_NeuroKernel Run Metrics",
+  "type":"object",
+  "required":["nodes","gates","edges","propagation_steps","state_sha256"],
+  "properties":{"nodes":{"const":22},"gates":{"const":231},"edges":{"type":"integer","minimum":0},"propagation_steps":{"type":"integer","minimum":0},"state_sha256":{"type":"string","pattern":"^[a-f0-9]{64}$"}},
+  "additionalProperties":false
+}
