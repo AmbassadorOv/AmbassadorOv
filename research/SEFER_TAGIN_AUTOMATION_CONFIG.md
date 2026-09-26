@@ -41,10 +41,70 @@ Core model: Nekudim → breaking of vessels → Raphach sparks → Beriah/Yetzir
 Current research assertions are represented as hypotheses/working mappings unless independently sourced.
 Raphach (288): preserve the textual claim of residual/minimal vitality where supported by the supplied source; represent hidden roots/minimal existence weight as a modeling abstraction, not a literal textual equivalence; do not invent a fixed numerical allocation of 288 across Beriah, Yetzirah, and Assiah; do not infer a numerical ascent order without a source.
 
-### Layer D — Hitlabshut / Atzilut-to-BY'A
+### Layer D — Hitlabshut / Atzilut-to-BY'A (Source/Interpretive Model)
 Working architecture supplied from openings 100–111 / ק–קו: Atzilut structure → hitlabshut by measured portion → downstream manifestation.
 Current conceptual components: RDL'A / Atik / Arich Anpin / Abba-Imma / Zeir Anpin; head and dikna distinctions; source/transmission distinctions; measured portion of the mitlabesh and corresponding scope of action; reflection/manifestation into Beriah, Yetzirah, Assiah.
 Rule: preserve the distinction between what the source explicitly states and the computational analogy built on top of it.
+
+
+### Layer E — Sevenfold Atzilut Hitlabshut / 21-Layer Neural Architecture
+The newly supplied architecture defines a computational analogy built around the seven lower sefirot of Atzilut (Chesed, Gevurah, Tiferet, Netzach, Hod, Yesod, Malkhut) and their modeled hitlabshut across seven stages in each of Beriah, Yetzirah, and Assiah: 7 × 3 = 21 principal layers.
+
+**Architectural status:** COMPUTATIONAL_HYPOTHESIS / REPRESENTATION_ONLY unless a specific technical behavior is independently implemented and tested.
+
+**Core mapping**
+- Atzilut layer: global parameter/meta-layer; not an independent agent.
+- Beriah ×7: investigation / structural and Talmudic-logical analysis.
+- Yetzirah ×7: uncertainty weighting / doubt analysis.
+- Assiah ×7: execution / atomic recording / operational output.
+- Each lower layer receives a modeled transformation of the corresponding Atzilut parameter set through an explicit `hitlabshut()` mapping.
+- The mapping must remain inspectable: source concept → computational parameter → transformation rule → observed behavior.
+
+**Sevenfold parameter roles in the computational model**
+1. Chesed — opening/receptivity
+2. Gevurah — constraint/challenge
+3. Tiferet — balancing
+4. Netzach — persistence/stability
+5. Hod — limitation/acknowledgment
+6. Yesod — inter-layer connection
+7. Malkhut — output/application
+
+These are architectural role labels, not claims that the source text literally defines software parameters, temperatures, thresholds, system prompts, or neural weights.
+
+**RDL'A / Atik boundary**
+The previously configured RDL'A / Atik branch remains upstream of this model. RDL'A is represented as a source of unresolved alternatives only within the computational analogy; Atik is represented as a transfer/mediation layer. Neither representation establishes a scientific equivalence with a neural-network mechanism.
+
+**Seven Doubts Pipeline**
+Where implemented, the seven-stage pipeline is:
+1. letters/tokens
+2. words/meaning
+3. general logic
+4. Talmudic logic (question–answer structure)
+5. doubt extraction
+6. doubt resolution/weighting
+7. model-layer update
+
+The pipeline may operate across the 21 modeled layers, but no numerical doubt weight may be assigned solely because a kabbalistic label is present. Weighting remains downstream of provenance and classification gates.
+
+**Proposed computational components**
+- `AtzilutCore`: global seven-parameter registry.
+- `hitlabshut()`: explicit parameter projection into the 21 layers.
+- `ReishaLoItyada`: unresolved-alternative state representation.
+- `AtikTransfer`: mediation/transfer representation.
+- Beriah agents ×7, Yetzirah weighting stages ×7, Assiah execution/recording agents ×7.
+- DetailKernel / BehaviorMemory / provenance ledger remain downstream storage and evidence components.
+
+**Integration rule**
+The 21-layer architecture is an extension of the existing multilayer Graph/Topology Engine. It must not replace the established relational/topological substrate (22 nodes, 231 relations/gates, 22 wheel states, 3/7/12 projections). Where both models are used, the 21-layer system is an architectural projection/processing layer and not a replacement ontology.
+
+**Roadmap status**
+Stage A: specification of RDL'A/Atik boundary — SPECIFIED
+Stage B: AtzilutCore + hitlabshut contract — SPECIFIED
+Stage C: 21-layer topology/agent mapping — SPECIFIED
+Stage D: seven-doubt pipeline integration — SPECIFIED
+Stage E: AutoGen/Ollama/logprob integration — PLANNED
+Stage F: calibration and behavioral testing — PLANNED
+No SPECIFIED → VERIFIED transition is permitted without executable evidence and verification receipt.
 
 ## Orchestration Pipeline
 SOURCE INTAKE → TEXT PRESERVATION → LOCATION/CITATION NORMALIZATION → TERM EXTRACTION → LINGUISTIC CLASSIFICATION → UNCERTAINTY-CAUSE CLASSIFICATION → NEKUDIM/RAPHACH EXTRACTION → HITLABSHUT RELATION EXTRACTION → MODEL MAPPING → PROVENANCE CHECK → CONTRADICTION/DRIFT CHECK → VERIFICATION GATE → ARCHIVAL
@@ -95,5 +155,8 @@ No field may silently convert interpretation into source fact.
 - Hitlabshut branch: configured
 - Fixed 288 BY'A numerical allocation: NOT DEFINED
 - Exact hitlabshut matrices: NOT_YET_VERIFIED
+- Sevenfold Atzilut → 21-layer computational architecture: SPECIFIED / COMPUTATIONAL_HYPOTHESIS
+- AtzilutCore + hitlabshut implementation: NOT_YET_IMPLEMENTED
+- 21-layer execution and calibration: PLANNED
 - Full automated execution: NOT CLAIMED
 - Next source package: pending user-supplied final file
