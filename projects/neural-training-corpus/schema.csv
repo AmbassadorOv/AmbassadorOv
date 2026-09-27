@@ -1,0 +1,5 @@
+record_id,record_type,source_id,reference_target_id,aspect_id,question_status,evidence_status,content,error_type,notes
+N-0001,SOURCE,,,,,EXTRACTED,,,,
+R-0001,REFERENCE,N-0001,N-0001,,,REFERENCED,,,REFERENCE_RESOLUTION,
+A-0001,OPERATIONAL_ASPECT,N-0001,,A-0001,,EXTRACTED,,,,
+Q-0001,QUESTION,,,,,INFERRED,UNKNOWN,,,,
