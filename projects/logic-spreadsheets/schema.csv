@@ -1,0 +1,6 @@
+record_id,record_type,source_id,target_id,aspect_id,operation,condition,validity_criterion,evidence,status,provenance
+L-0001,SOURCE,,,,,,,,EXTRACTED,
+L-0002,REFERENCE,L-0001,L-0001,,,,,REFERENCED,
+L-0003,ASPECT,L-0001,,A-0001,,,,EXTRACTED,
+L-0004,RELATION,L-0001,L-0003,,RELATES_TO,,,,EXTRACTED,
+L-0005,OPERATION,L-0001,,A-0001,TRANSFORM,,,EXTRACTED,
