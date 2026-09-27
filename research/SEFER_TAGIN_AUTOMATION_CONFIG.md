@@ -135,7 +135,7 @@ Role: persistent structured working store. Store daily Sefer Tagin extraction re
 Role: canonical versioned research/evidence archive.
 Repository: AmbassadorOv/AmbassadorOv
 Branch: main
-Recommended paths: research/sefer-tagin/; research/milllot-ha-higayon/; research/moreh-nevukhim/; research/nekudim-raphach/; research/hitlabshut/; evidence/sefer-tagin/; evidence/nekudim-raphach/; evidence/hitlabshut/; research/ORCHESTRATION_INDEX.md
+Active paths: research/context/; research/sefer-tagin/; research/milllot-ha-higayon/; research/moreh-nevukhim/; research/nekudim-raphach/; research/hitlabshut/; research/sefer-yetzirah/; evidence/sefer-tagin/; evidence/nekudim-raphach/; evidence/hitlabshut/; research/ORCHESTRATION_INDEX.md
 Git commits provide repository version history and provenance of repository changes; they are not independent external proof of the underlying historical/textual claims.
 
 ## Automation Schedule
@@ -147,8 +147,12 @@ Every generated research record should expose: source; source_location; extracte
 No field may silently convert interpretation into source fact.
 
 ## Current Status
-- Sefer Tagin persistence: configured
-- GitHub archival: configured
+- GitHub repository connection: VERIFIED / WRITABLE
+- Manual research persistence to GitHub: VERIFIED
+- Persistent context anchor: ACTIVE at research/context/CONTEXT_ANCHOR.md
+- Active checkpoint: ACTIVE at research/context/ACTIVE_RESEARCH_CHECKPOINT_2026-09-27.md
+- Sefer Tagin persistence: CONFIGURED / EXECUTION NOT INDEPENDENTLY VERIFIED
+- GitHub archival: VERIFIED
 - Millot HaHigayon preprocessing layer: configured
 - Guide uncertainty-diagnostic layer: configured
 - Nekudim/Raphach branch: configured
