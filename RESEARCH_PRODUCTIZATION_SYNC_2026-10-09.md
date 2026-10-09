@@ -17,7 +17,7 @@ The immediate work is demonstration and market validation, not fundraising or re
 ## First interactive demonstration
 
 **AI Logic Auditor Demo**  
-- GitHub project: https://github.com/productos-agents/productos-ai-logic-auditor-demo-8946d3a4
+- ProductOS project ID: `8946d3a4-4c84-4a1f-b151-ac267809b82a` (GitHub target configured; successful push/file availability not yet verified)
 - Preview: https://69bb8cc01894754ca7570cde42f7bb57.preview.bl.run
 - WANGA-LAB research record: [Business Pivot & First Logic Product](https://github.com/Quadruple-Multilevel-projection-project/WANGA-LAB/blob/main/docs/PRODUCTIZATION_AND_FIRST_LOGIC_DEMO_2026-10-09.md)
 
