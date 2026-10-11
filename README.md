@@ -1,6 +1,22 @@
-# Public Research Brief — AI, Logic, Governance & Market Convergence
+# Logic Research — Eran Oved Awat | AmbassadorOv
 
-This profile openly documents the research direction, the central market assessment, the supporting source map, and the public development trail. The purpose is to let investors, engineers, researchers, and other readers inspect the argument and follow the work directly rather than rely on private explanations.
+**Primary research domain: Logic Research.** I investigate logical structures, relations, constraints, rules, derivations, and the conditions under which claims or system behavior can be considered valid. Engineering, computational architecture, AI forensics, and economic models are connected research branches that follow from this central inquiry.
+
+## Research hierarchy
+
+1. **Logic Research** — the central field: investigating logical structures, relations, rules, constraints, derivations, and validity boundaries.
+2. **Logic Engineering** — methods for extracting, classifying, specifying, composing, testing, and reusing logical structures.
+3. **Logic-Based Architecture** — applying explicit logic to system design, interfaces, control boundaries, and coordination between components.
+4. **Logic Economics** — studying the economic consequences of reusable logic: distribution, licensing, contribution, market organization, and possible incentive systems. Economic outcomes remain hypotheses until supported by evidence.
+5. **AI Drift Forensics** — examining behavioral changes, criterion drift, evidence integrity, reconstruction, and verification in systems built around changing AI models.
+
+**Direction of explanation:** logic research → engineering methods → architecture and control → forensic evaluation → economic implications and applications. The economic layer is an outcome to investigate, not the premise from which the logic research is justified.
+
+This profile is a public research index for engineers, researchers, potential collaborators, investors, and automated discovery systems. It links conceptual claims to source material and technical artifacts wherever available. Research proposals, implemented components, test results, and verified findings must remain explicitly distinguished.
+
+**Evidence discipline:** repository activity demonstrates documented development, not by itself the correctness of a claim, market adoption, token value, or financial return. The status of each artifact should be read from its own evidence and documentation.
+
+---
 
 ## Start here: investor and research orientation
 
