@@ -1,3 +1,31 @@
+# Public Research Brief — AI, Logic, Governance & Market Convergence
+
+This profile openly documents the research direction, the central market assessment, the supporting source map, and the public development trail. The purpose is to let investors, engineers, researchers, and other readers inspect the argument and follow the work directly rather than rely on private explanations.
+
+## Start here: investor and research orientation
+
+- **[Map of Sources — 12 Convergence Points](https://beywolf5.wixsite.com/forensic-logic-dri/post/%D7%9E%D7%A4%D7%AA-%D7%94%D7%9E%D7%A7%D7%95%D7%A8%D7%95%D7%AA--12-%D7%A0%D7%A7%D7%95%D7%93%D7%95%D7%AA-%D7%94%D7%94%D7%AA%D7%9B%D7%A0%D7%A1%D7%95%D7%AA-142eb837)** — the source map associated with the 12-point framework.
+- **[Map of Convergence — How the 12 Topics Connect](https://beywolf5.wixsite.com/forensic-logic-dri/post/%D7%9E%D7%A4%D7%AA-%D7%94%D7%94%D7%AA%D7%9B%D7%A0%D7%A1%D7%95%D7%AA-%D7%90%D7%99%D7%9A-12-%D7%94%D7%A0%D7%95%D7%A9%D7%90%D7%99%D7%9D-%D7%9E%D7%AA%D7%97%D7%91%D7%A8%D7%99%D7%9D-%D7%95%D7%9E%D7%94-%D7%94%D7%A7%D7%95%D7%A8%D7%90-%D7%A6%D7%A8%D7%99%D7%9A-%D7%9C%D7%93%D7%A2%D7%AA)** — an introduction for readers who are new to the research.
+- **[WANGA-LAB — Research, Evidence & Verification](https://github.com/Quadruple-Multilevel-projection-project/WANGA-LAB)** — the technical research repository.
+
+## The 12-point framework
+
+The current research framework groups twelve connected topics into three layers:
+
+1. **Technology and capability:** model improvement, autonomous agents, orchestration registries and skills, logic engineering, drift forensics, and changes in the economics of execution.
+2. **Institutional constraints and architecture:** regulatory and security requirements, plus bounded logic, formal methods, and verification as possible ways to constrain AI-driven actions.
+3. **External economic and operational pressures:** investment returns and valuation, technological sovereignty, legal responsibility and insurance, and compute/energy constraints.
+
+The framework is a structured market assessment. Individual claims should be evaluated against their underlying sources; a connection between topics is not, by itself, proof that every predicted outcome is certain. The public pages are intended to make the argument, its sources, and the technical development trail easier to inspect.
+
+## Public development and evidence status
+
+GitHub is the public record for implementation artifacts, specifications, tests, issues, and changes. Each component should be understood according to its documented status — **BUILT, SPECIFIED, PROTOTYPED, TESTED, VERIFIED, PLANNED, or HYPOTHETICAL**. A research proposition is not automatically an implemented capability, and a development milestone is not a financial-return guarantee.
+
+The research is open to inspection and technical participation through public artifacts and repository workflows. Proprietary implementation details remain subject to their stated intellectual-property boundary; openness about the thesis does not imply that every protected implementation detail is being published.
+
+---
+
 # WANGA Neural Algorithmic Governance Computer — Main Project
 
 **EN — MAIN PROJECT**  
